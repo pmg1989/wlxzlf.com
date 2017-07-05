@@ -64,13 +64,18 @@ a,a:link,a:visited {
 	text-decoration: none
 }
 
-.fixed_content {
+.bg_content {
 	background: url('../images/des/bg.jpg')
 }
 
-.fixed_content p {
+.bg_content p {
 	text-indent: 2rem;
 	padding: 0 15px;
+	color: #333;
+	font-size: 16px;
+}
+
+.fixed_content p {
 	color: #333;
 	font-size: 16px;
 }
@@ -116,12 +121,7 @@ img {
 }
 
 #header {
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	z-index: 1000;
-	background: #fff;
+	margin-bottom: 0.8em;
 }
 
 #fixed-foot li,
