@@ -452,6 +452,7 @@ a:hover{color:#f00;text-decoration:none}
 #leftObj .rank_list .list{background-image:none}
 #leftObj .rank_list .content{padding:10px 5px 5px 18px;background:url(news_list_bg.gif) no-repeat 10px 16px}
 #leftObj .box .title_more{border-bottom:0}
+#leftObj .title_more a {color: #FFF;}
 #leftObj .box .title{background:url('../images/nav/nav_bg.jpg') repeat-x;border:0}
 .noleft .location{width:auto;position:static;}
 .noleft #rightObj{margin-top:15px}
