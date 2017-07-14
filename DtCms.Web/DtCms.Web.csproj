@@ -454,6 +454,7 @@
     <Content Include="m\css\main.css" />
     <Content Include="m\css\site.css" />
     <Content Include="m\css\styles.css" />
+    <Content Include="m\Footer.ascx" />
     <Content Include="m\images\demo-production.jpg" />
     <Content Include="m\images\des\bg.jpg" />
     <Content Include="m\images\des\des-1.jpg" />
@@ -772,6 +773,13 @@
     </Compile>
     <Compile Include="m\contactUs.aspx.designer.cs">
       <DependentUpon>contactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
     </Compile>
     <Compile Include="m\Top.ascx.cs">
       <DependentUpon>Top.ascx</DependentUpon>
