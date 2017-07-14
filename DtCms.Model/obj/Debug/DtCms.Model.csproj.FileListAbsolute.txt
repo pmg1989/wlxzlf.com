@@ -1,0 +1,49 @@
+E:\web\DTCMS\Dtcms.Model\bin\Debug\Dtcms.Model.dll
+E:\web\DTCMS\Dtcms.Model\bin\Debug\Dtcms.Model.pdb
+E:\web\DTCMS\Dtcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\web\DTCMS\Dtcms.Model\obj\Debug\Dtcms.Model.dll
+E:\web\DTCMS\Dtcms.Model\obj\Debug\Dtcms.Model.pdb
+E:\web\DTCMS_Access\Dtcms.Model\bin\Debug\Dtcms.Model.dll
+E:\web\DTCMS_Access\Dtcms.Model\bin\Debug\Dtcms.Model.pdb
+E:\web\DTCMS_Access\Dtcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\web\DTCMS_Access\Dtcms.Model\obj\Debug\Dtcms.Model.dll
+E:\web\DTCMS_Access\Dtcms.Model\obj\Debug\Dtcms.Model.pdb
+D:\backweb\DTCMS_Access\Dtcms.Model\bin\Debug\Dtcms.Model.dll
+D:\backweb\DTCMS_Access\Dtcms.Model\bin\Debug\Dtcms.Model.pdb
+D:\backweb\DTCMS_Access\Dtcms.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\backweb\DTCMS_Access\Dtcms.Model\obj\Debug\Dtcms.Model.dll
+D:\backweb\DTCMS_Access\Dtcms.Model\obj\Debug\Dtcms.Model.pdb
+E:\web\fshonest_com\Dtcms.Model\bin\Debug\Dtcms.Model.dll
+E:\web\fshonest_com\Dtcms.Model\bin\Debug\Dtcms.Model.pdb
+E:\web\fshonest_com\Dtcms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\web\fshonest_com\Dtcms.Model\obj\Debug\Dtcms.Model.dll
+E:\web\fshonest_com\Dtcms.Model\obj\Debug\Dtcms.Model.pdb
+E:\项目\未分类\1548-1-Dtcms_Source\DtCms.Model\bin\Debug\Dtcms.Model.dll
+E:\项目\未分类\1548-1-Dtcms_Source\DtCms.Model\bin\Debug\Dtcms.Model.pdb
+E:\项目\未分类\1548-1-Dtcms_Source\DtCms.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\项目\未分类\1548-1-Dtcms_Source\DtCms.Model\obj\Debug\Dtcms.Model.dll
+E:\项目\未分类\1548-1-Dtcms_Source\DtCms.Model\obj\Debug\Dtcms.Model.pdb
+D:\My Documents\下载\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.dll
+D:\My Documents\下载\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.pdb
+D:\My Documents\下载\DtCms10\DtCms.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\下载\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.dll
+D:\My Documents\下载\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.pdb
+F:\PMG\通用系统模板\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.dll
+F:\PMG\通用系统模板\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.pdb
+F:\PMG\通用系统模板\DtCms10\DtCms.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\PMG\通用系统模板\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.dll
+F:\PMG\通用系统模板\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.pdb
+F:\PMG\通用系统模板\大舅网站\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.dll
+F:\PMG\通用系统模板\大舅网站\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.pdb
+F:\PMG\通用系统模板\大舅网站\DtCms10\DtCms.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\PMG\通用系统模板\大舅网站\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.dll
+F:\PMG\通用系统模板\大舅网站\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.pdb
+F:\PMG\客户网站\大舅网站\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.dll
+F:\PMG\客户网站\大舅网站\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.pdb
+F:\PMG\客户网站\大舅网站\DtCms10\DtCms.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\PMG\客户网站\大舅网站\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.dll
+F:\PMG\客户网站\大舅网站\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.pdb
+F:\客户网站\章程飞\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.dll
+F:\客户网站\章程飞\DtCms10\DtCms.Model\bin\Debug\Dtcms.Model.pdb
+F:\客户网站\章程飞\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.dll
+F:\客户网站\章程飞\DtCms10\DtCms.Model\obj\Debug\Dtcms.Model.pdb
