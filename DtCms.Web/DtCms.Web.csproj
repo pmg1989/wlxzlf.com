@@ -474,7 +474,9 @@
     <Content Include="m\index.html" />
     <Content Include="m\join-list.html" />
     <Content Include="m\news-detail.html" />
+    <Content Include="m\news.aspx" />
     <Content Include="m\news.html" />
+    <Content Include="m\newsDetail.aspx" />
     <Content Include="m\product-detail.html" />
     <Content Include="m\product.html" />
     <Content Include="m\Top.ascx" />
@@ -788,6 +790,20 @@
     </Compile>
     <Compile Include="m\Footer.ascx.designer.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="m\news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m\newsDetail.aspx.cs">
+      <DependentUpon>newsDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\newsDetail.aspx.designer.cs">
+      <DependentUpon>newsDetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="m\Top.ascx.cs">
       <DependentUpon>Top.ascx</DependentUpon>
