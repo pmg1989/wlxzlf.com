@@ -47,3 +47,7 @@ F:\客户网站\章程飞\DtCms10\DtCms.Common\bin\Debug\Dtcms.Common.dll
 F:\客户网站\章程飞\DtCms10\DtCms.Common\bin\Debug\Dtcms.Common.pdb
 F:\客户网站\章程飞\DtCms10\DtCms.Common\obj\Debug\Dtcms.Common.dll
 F:\客户网站\章程飞\DtCms10\DtCms.Common\obj\Debug\Dtcms.Common.pdb
+F:\github\wlxzlf.com\DtCms.Common\bin\Debug\Dtcms.Common.dll
+F:\github\wlxzlf.com\DtCms.Common\bin\Debug\Dtcms.Common.pdb
+F:\github\wlxzlf.com\DtCms.Common\obj\Debug\Dtcms.Common.dll
+F:\github\wlxzlf.com\DtCms.Common\obj\Debug\Dtcms.Common.pdb

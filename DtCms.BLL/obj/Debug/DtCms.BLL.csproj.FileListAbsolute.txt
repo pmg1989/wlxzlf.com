@@ -128,3 +128,16 @@ F:\客户网站\章程飞\DtCms10\DtCms.BLL\bin\Debug\Dtcms.DBUtility.pdb
 F:\客户网站\章程飞\DtCms10\DtCms.BLL\obj\Debug\DtCms.BLL.csprojResolveAssemblyReference.cache
 F:\客户网站\章程飞\DtCms10\DtCms.BLL\obj\Debug\Dtcms.BLL.dll
 F:\客户网站\章程飞\DtCms10\DtCms.BLL\obj\Debug\Dtcms.BLL.pdb
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.BLL.dll
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.BLL.pdb
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.Common.dll
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.DAL.dll
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.Model.dll
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.DBUtility.dll
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.Common.pdb
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.DAL.pdb
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.Model.pdb
+F:\github\wlxzlf.com\DtCms.BLL\bin\Debug\Dtcms.DBUtility.pdb
+F:\github\wlxzlf.com\DtCms.BLL\obj\Debug\DtCms.BLL.csprojResolveAssemblyReference.cache
+F:\github\wlxzlf.com\DtCms.BLL\obj\Debug\Dtcms.BLL.dll
+F:\github\wlxzlf.com\DtCms.BLL\obj\Debug\Dtcms.BLL.pdb

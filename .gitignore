@@ -1,1 +1,17 @@
 node_modules
+DtCms.ActionLabel/bin
+DtCms.ActionLabel/obj
+DtCms.BLL/bin
+DtCms.BLL/obj
+DtCms.Common/bin
+DtCms.Common/obj
+DtCms.DAL/bin
+DtCms.DAL/obj
+DtCms.DBUtility/bin
+DtCms.DBUtility/obj
+DtCms.Model/bin
+DtCms.Model/obj
+DtCms.Web.UI/bin
+DtCms.Web.UI/obj
+DtCms.Web/bin
+DtCms.Web/obj
