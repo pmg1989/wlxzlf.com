@@ -13,6 +13,15 @@ namespace DtCms.Web.m {
     public partial class contactUs {
         
         /// <summary>
+        /// Top control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DtCms.Web.m.Top Top;
+        
+        /// <summary>
         /// lbcontent control.
         /// </summary>
         /// <remarks>
