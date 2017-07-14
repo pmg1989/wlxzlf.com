@@ -11,11 +11,11 @@
     <div class="navBtn">
     <div class="navArea">
         <ul>
-        <li><div class="wrap"><a href="/m/index.html">首页</a></div></li>
-        <li><div class="wrap"><a href="/m/info/66558.html">介绍</a></div></li>
-        <li><div class="wrap"><a href="/m/info/66562.html">产品</a></div></li>
-        <li><div class="wrap"><a href="/m/info/74095.html">案例</a></div></li>
-        <li><div class="wrap"><a href="/m/info/66578.html">资讯</a></div></li>
+        <li><div class="wrap"><a href="/m/index.aspx">首页</a></div></li>
+        <li><div class="wrap"><a href="/m/aboutUs.aspx">介绍</a></div></li>
+        <li><div class="wrap"><a href="/m/product.aspx">产品</a></div></li>
+        <li><div class="wrap"><a href="/m/joinUs.aspx">案例</a></div></li>
+        <li><div class="wrap"><a href="/m/news.aspx">资讯</a></div></li>
         </ul>
     </div>
     </div>

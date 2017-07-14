@@ -448,6 +448,7 @@
     <Content Include="leftTuijian.ascx" />
     <Content Include="lineMessage.aspx" />
     <Content Include="m\about-us.html" />
+    <Content Include="m\aboutUs.aspx" />
     <Content Include="m\contact-us.html" />
     <Content Include="m\contactUs.aspx" />
     <Content Include="m\css\layout.css" />
@@ -766,6 +767,13 @@
     </Compile>
     <Compile Include="Links.aspx.designer.cs">
       <DependentUpon>Links.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m\aboutUs.aspx.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\aboutUs.aspx.designer.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
     </Compile>
     <Compile Include="m\contactUs.aspx.cs">
       <DependentUpon>contactUs.aspx</DependentUpon>
