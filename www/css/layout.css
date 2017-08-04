@@ -30,3 +30,19 @@
 .info_list_intro .list{margin:0 0 10px}
 
 #rightObj .contact{padding:20px;}
+
+.ad_top {
+  margin-bottom: 10px;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.description_text {
+  padding: 15px;
+  line-height: 2;
+  font-size: 16px;
+  text-indent: 2rem;
+}
