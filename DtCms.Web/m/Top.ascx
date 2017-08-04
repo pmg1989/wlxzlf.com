@@ -16,13 +16,11 @@
 </script>
 
 <div id="header">
-    <h1 class="logo">
-        <span class="hd_tel"><a href="tel:13637084818"></a></span>
-        <span class="hd_home"><a href="/3g"></a></span>
+    <div class="logo">
         <div class="logoimg" style="background:url(./images/logo.jpg) no-repeat 50% 50%;background-size:contain">
-        <a id="logoTel" href="tel:13637084818"></a>
+            <a id="logoTel" href="tel:15955133009"></a>
         </div>
-    </h1>
+    </div>
     <div class="navBtn">
     <div class="navArea">
         <ul>

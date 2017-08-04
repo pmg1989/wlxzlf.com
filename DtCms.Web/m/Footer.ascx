@@ -14,8 +14,8 @@
         <p class="copyright">
             <div class="cr" align="justify"></div>
         <p>
-            合肥杜江餐饮企业管理有限公司 &nbsp;  版权所有&nbsp;&nbsp;
-            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">皖ICP备14015488号</a>
+            合肥程飞餐饮管理有限公司 &nbsp;  版权所有&nbsp;&nbsp;
+            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">皖ICP备17017950号</a>
             <a class="ke-tmlp">
                 <span class="s-red">&nbsp;&nbsp;</span>
             </a>
@@ -26,3 +26,16 @@
             </a>
         </p>
     </div>
+
+    <ul id="fixed-foot">
+      <li class="tel_li">
+        <a href="tel:15955133009" id="BottomPhone">
+          <span class="icons icon-tel">&nbsp;</span>电话
+        </a>
+      </li>
+      <li class="map_li">
+        <a href="#" id="BottomContact">
+          <span class="icons icon-map">&nbsp;</span>地图
+        </a>
+      </li>
+   </ul>

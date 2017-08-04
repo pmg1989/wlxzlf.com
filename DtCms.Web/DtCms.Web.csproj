@@ -471,6 +471,7 @@
     <Content Include="m\images\m-icons.png" />
     <Content Include="m\images\map-address.jpg" />
     <Content Include="m\images\mendian.jpg" />
+    <Content Include="m\index.aspx" />
     <Content Include="m\index.html" />
     <Content Include="m\join-list.html" />
     <Content Include="m\joindetail.aspx" />
@@ -794,6 +795,13 @@
     </Compile>
     <Compile Include="m\Footer.ascx.designer.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="m\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="m\joindetail.aspx.cs">
       <DependentUpon>joindetail.aspx</DependentUpon>
