@@ -12,6 +12,21 @@
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/site.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <script>
+      var pathname = window.location.pathname;
+      var isMobilePage = pathname.indexOf('/m/') > -1
+      var redirectName = pathname.substr(pathname.lastIndexOf('/') + 1) + location.search
+      console.log(redirectName);
+      if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        if(!isMobilePage) {
+          window.location.href = "/m/" + redirectName
+        }
+      } else {
+        if(isMobilePage) {
+          window.location.href = "/www/" + redirectName
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="header">
