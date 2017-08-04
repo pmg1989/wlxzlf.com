@@ -138,7 +138,7 @@ a:hover{color:#f00;text-decoration:none}
 #rightObj .thumb_list{padding:20px}
 .thumb_list li{float:left;}
 .thumb_list li .txt{height:20px;overflow:hidden;}
-.thumb_list li .pic_list_li{margin:0;position:relative;padding:0 5px 10px;text-align:center}
+.thumb_list li .pic_list_li{margin:0;position:relative;padding:0 20px 20px;text-align:center}
 .thumb_list li .pic_list_li .pic{padding:0}
 .thumb_list li .pic_list_li .txt{text-align:center;padding:6px 0;overflow:hidden;margin:0 auto}
 .pic_list_01{overflow:hidden;zoom:1;padding:15px}
