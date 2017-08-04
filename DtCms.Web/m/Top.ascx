@@ -13,8 +13,8 @@
         <ul>
         <li><div class="wrap"><a href="/m/index.aspx">首页</a></div></li>
         <li><div class="wrap"><a href="/m/aboutUs.aspx">介绍</a></div></li>
-        <li><div class="wrap"><a href="/m/product.aspx">产品</a></div></li>
-        <li><div class="wrap"><a href="/m/joinUs.aspx">案例</a></div></li>
+        <li><div class="wrap"><a href="/m/productlist.aspx">产品</a></div></li>
+        <li><div class="wrap"><a href="/m/joinlist.aspx">案例</a></div></li>
         <li><div class="wrap"><a href="/m/news.aspx">资讯</a></div></li>
         </ul>
     </div>

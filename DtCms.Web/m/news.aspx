@@ -47,7 +47,7 @@
                                 </span>
                                 <img title='New' src='./images/Icons/new.gif' />
                                 <%#Eval("isRed").ToString() == "1" ? "<img title='推荐' src='./images/Icons/agree.gif' />": "" %>
-                                <%#Eval("isHot").ToString() == "1" ? "<img title='热点' src='./images/Icons/hot_1.gif' />": "" %>
+                                <%#Eval("isHot").ToString() == "1" ? "<img title='热门' src='./images/Icons/hot_1.gif' />": "" %>
                                 <%#Eval("isTop").ToString() == "1" ? "<img title='置顶' src='./images/Icons/ding_1.gif' />": "" %>
                                 
                             </li>

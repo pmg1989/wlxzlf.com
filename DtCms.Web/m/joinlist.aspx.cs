@@ -9,10 +9,10 @@ using DtCms.BLL;
 
 namespace DtCms.Web.m
 {
-    public partial class productlist : DtCms.Web.UI.BasePage
+    public partial class joinlist : DtCms.Web.UI.BasePage
     {
         public int channelid;
-        public int classId = 106;
+        public int classId = 107;
 
         public int pcount = 0; //总条数
         public int page; //当前页

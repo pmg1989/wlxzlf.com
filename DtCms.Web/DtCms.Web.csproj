@@ -473,6 +473,8 @@
     <Content Include="m\images\mendian.jpg" />
     <Content Include="m\index.html" />
     <Content Include="m\join-list.html" />
+    <Content Include="m\joindetail.aspx" />
+    <Content Include="m\joinlist.aspx" />
     <Content Include="m\news-detail.html" />
     <Content Include="m\news.aspx" />
     <Content Include="m\news.html" />
@@ -792,6 +794,20 @@
     </Compile>
     <Compile Include="m\Footer.ascx.designer.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="m\joindetail.aspx.cs">
+      <DependentUpon>joindetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\joindetail.aspx.designer.cs">
+      <DependentUpon>joindetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m\joinlist.aspx.cs">
+      <DependentUpon>joinlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\joinlist.aspx.designer.cs">
+      <DependentUpon>joinlist.aspx</DependentUpon>
     </Compile>
     <Compile Include="m\news.aspx.cs">
       <DependentUpon>news.aspx</DependentUpon>

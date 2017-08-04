@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data;
 
 namespace DtCms.Web.m
 {
-    public partial class productdetail : DtCms.Web.UI.BasePage
+    public partial class joindetail : DtCms.Web.UI.BasePage
     {
         private int proId;
         protected void Page_Load(object sender, EventArgs e)
@@ -42,7 +42,6 @@ namespace DtCms.Web.m
             DtCms.Model.Products modproduct = bllproduct.GetModel(proId);
             this.lbtitle.Text = modproduct.Title;
             this.lbaddtime.Text = Convert.ToDateTime(modproduct.AddTime.ToString()).ToString("yyyy-MM-dd");
-            this.lbprice.Text = modproduct.Price.ToString();
             this.lbclick.Text = modproduct.Click.ToString();
             //this.lbcontent.Text = DtCms.Common.StringPlus.DropHTML(modproduct.Content);
             this.lbcontent.Text = modproduct.Content;

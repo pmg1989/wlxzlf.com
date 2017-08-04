@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="productlist.aspx.cs" Inherits="DtCms.Web.m.productlist" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="joinlist.aspx.cs" Inherits="DtCms.Web.m.joinlist" %>
 
 <%@ Register Src="~/m/Top.ascx" TagPrefix="DtCmsControl" TagName="Top" %>
 <%@ Register Src="~/m/Footer.ascx" TagPrefix="DtCmsControl" TagName="Footer" %>
@@ -23,7 +23,7 @@
     <dl class="box">
         <dt class="title">
             <!-- <a class="more arr-round arr-round-blue" href="/3g/info/66579.html"></a> -->
-            <div class="title_name">产品列表</div>
+            <div class="title_name">加盟案例</div>
         </dt>
         <dd>
            <ul class="thumb_list">
@@ -32,7 +32,7 @@
                              <li class="pic_list_1">
                                 <div class="pic_list_li">
                                     <div class="pic">
-                                      <a href='./productdetail.aspx?id=<%#Eval("Id").ToString()%>' title='<%#Eval("Title").ToString()%>' target="_self">
+                                      <a href='./joindetail.aspx?id=<%#Eval("Id").ToString()%>' title='<%#Eval("Title").ToString()%>' target="_self">
                                         <img src="<%#Eval("ImgUrl").ToString()%>" alt='懒汉杂粮粉' class="intro-info-img pic-left" style="height: 110px;">
                                       </a>
                                     </div>
