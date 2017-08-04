@@ -479,6 +479,8 @@
     <Content Include="m\newsDetail.aspx" />
     <Content Include="m\product-detail.html" />
     <Content Include="m\product.html" />
+    <Content Include="m\productdetail.aspx" />
+    <Content Include="m\productlist.aspx" />
     <Content Include="m\Top.ascx" />
     <Content Include="Newsdetail.aspx" />
     <Content Include="product.aspx" />
@@ -804,6 +806,20 @@
     </Compile>
     <Compile Include="m\newsDetail.aspx.designer.cs">
       <DependentUpon>newsDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m\productdetail.aspx.cs">
+      <DependentUpon>productdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\productdetail.aspx.designer.cs">
+      <DependentUpon>productdetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="m\productlist.aspx.cs">
+      <DependentUpon>productlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="m\productlist.aspx.designer.cs">
+      <DependentUpon>productlist.aspx</DependentUpon>
     </Compile>
     <Compile Include="m\Top.ascx.cs">
       <DependentUpon>Top.ascx</DependentUpon>
