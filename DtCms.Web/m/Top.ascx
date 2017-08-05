@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Top.ascx.cs" Inherits="DtCms.Web.m.Top" %>
 
-<script>
+<%--<script>
     var pathname = window.location.pathname;
     var isMobilePage = pathname.indexOf('/m/') > -1
     var redirectName = pathname.substr(pathname.lastIndexOf('/') + 1) + location.search
@@ -13,7 +13,7 @@
             window.location.href = "/" + redirectName
         }
     }
-</script>
+</script>--%>
 
 <div id="header">
     <div class="logo">

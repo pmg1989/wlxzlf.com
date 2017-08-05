@@ -14,7 +14,7 @@
         <p class="copyright">
             <div class="cr" align="justify"></div>
         <p>
-            合肥程飞餐饮管理有限公司 &nbsp;  版权所有&nbsp;&nbsp;
+            合肥程飞餐饮管理有限公司 &nbsp;  版权所有&nbsp;&nbsp;<br />
             <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">皖ICP备17017950号</a>
             <a class="ke-tmlp">
                 <span class="s-red">&nbsp;&nbsp;</span>

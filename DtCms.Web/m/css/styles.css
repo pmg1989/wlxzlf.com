@@ -10,6 +10,7 @@ body {
 	background: #e0deda;
 	margin: 0 auto;
 	padding: 0;
+    padding-bottom: 55px;
 	font: 1em/1.6 "微软雅黑","Arial","tahoma";
 	max-width: 380px;
 }

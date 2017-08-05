@@ -37,12 +37,12 @@
                 <ul class="telbox">
                     <li class="col1">
                         <div class="wrap">
-                            <a id="tel_btn" href="tel:13637084818"><i class="icons icon-tel"></i>拨打电话</a>
+                            <a id="tel_btn" href="tel:15955133009"><i class="icons icon-tel"></i>拨打电话</a>
                         </div>
                     </li>
                     <li class="col2">
                         <div class="wrap">
-                            <a href="/3g/info/66564.html"><i class="icons icon-hd"></i>成功案例</a>
+                            <a href="/m/joinlist.aspx"><i class="icons icon-hd"></i>成功案例</a>
                         </div>
                     </li>
                 </ul>
@@ -51,69 +51,34 @@
     </dl>
     <dl class="box">
         <dt class="title">
-            <a class="more arr-round arr-round-blue" href="/3g/info/66563.html"></a>
+            <a class="more arr-round arr-round-blue" href="/m/productlist.aspx"></a>
             <div class="title_name">产品展示</div>
         </dt>
         <dd>
             <ul class="thumb_list">
-                <li class="pic_list_1">
-                    <div class="pic_list_li">
-                        <div class="pic">
-                          <a href='/3g/display/325223.html' title='懒汉杂粮粉' target="_self">
-                            <img src="./images/demo-production.jpg" alt='懒汉杂粮粉' class="intro-info-img pic-left">
-                          </a>
-                        </div>
-                        <div class="txt">
-                            <a href='/3g/display/325223.html' title='懒汉杂粮粉' target='_self' style=''>懒汉杂粮粉</a>
-                        </div>
-                        <span class="date"></span>
-                    </div>
-                </li>
-                <li class="pic_list_1">
-                    <div class="pic_list_li">
-                        <div class="pic">
-                          <a href='/3g/display/325223.html' title='懒汉杂粮粉' target="_self">
-                            <img src="./images/demo-production.jpg" alt='懒汉杂粮粉' class="intro-info-img pic-left">
-                          </a>
-                        </div>
-                        <div class="txt">
-                            <a href='/3g/display/325223.html' title='懒汉杂粮粉' target='_self' style=''>懒汉杂粮粉</a>
-                        </div>
-                        <span class="date"></span>
-                    </div>
-                </li>
-                <li class="pic_list_1">
-                    <div class="pic_list_li">
-                        <div class="pic">
-                          <a href='/3g/display/325223.html' title='懒汉杂粮粉' target="_self">
-                            <img src="./images/demo-production.jpg" alt='懒汉杂粮粉' class="intro-info-img pic-left">
-                          </a>
-                        </div>
-                        <div class="txt">
-                            <a href='/3g/display/325223.html' title='懒汉杂粮粉' target='_self' style=''>懒汉杂粮粉</a>
-                        </div>
-                        <span class="date"></span>
-                    </div>
-                </li>
-                <li class="pic_list_1">
-                    <div class="pic_list_li">
-                        <div class="pic">
-                          <a href='/3g/display/325223.html' title='懒汉杂粮粉' target="_self">
-                            <img src="./images/demo-production.jpg" alt='懒汉杂粮粉' class="intro-info-img pic-left">
-                          </a>
-                        </div>
-                        <div class="txt">
-                            <a href='/3g/display/325223.html' title='懒汉杂粮粉' target='_self' style=''>懒汉杂粮粉</a>
-                        </div>
-                        <span class="date"></span>
-                    </div>
-                </li>
+                <asp:Repeater ID="productList" runat="server">
+                    <ItemTemplate>
+                            <li class="pic_list_1">
+                            <div class="pic_list_li">
+                                <div class="pic">
+                                    <a href='./productdetail.aspx?id=<%#Eval("Id").ToString()%>' title='<%#Eval("Title").ToString()%>' target="_self">
+                                    <img src="<%#Eval("ImgUrl").ToString()%>" alt='懒汉杂粮粉' class="intro-info-img pic-left" style="height: 110px;">
+                                    </a>
+                                </div>
+                                <div class="txt">
+                                    <a href='./productdetail.aspx?id=<%#Eval("Id").ToString()%>' title='<%#Eval("Title").ToString()%>' target="_self"><%#Eval("Title").ToString()%></a>
+                                </div>
+                                <span class="date"></span>
+                            </div>
+                        </li>
+                    </ItemTemplate>
+                </asp:Repeater>
             </ul>
         </dd>
     </dl>
     <dl class="box">
         <dt class="title">
-            <a class="more arr-round arr-round-blue" href="/3g/info/66558.html"></a>
+            <a class="more arr-round arr-round-blue" href="/m/contactUs.aspx"></a>
             <div class="title_name">我们的优势</div>
         </dt>
         <dd>
@@ -140,7 +105,7 @@
         <dd class="container">
             <div class="img_content">
                 <h3 class="img_content_pic">
-                  <a href='/3g/display/290473.html' title='懒汉杂粮粉' target="_self">
+                  <a href='/m/aboutUs.aspx' title='懒汉杂粮粉' target="_self">
                     <img src="./images/mendian.jpg" alt='懒汉杂粮粉' class="intro-info-img pic-left" height='145' width='110'>
                   </a>
                 </h3>
@@ -161,32 +126,23 @@
         </dt>
         <dd>
             <ul class="thumb_list">
-                <li class="pic_list_1">
-                    <div class="pic_list_li">
-                        <div class="pic">
-                          <a href='/3g/display/339513.html' title='叶珊珊' target="_self">
-                            <img src="./images/mendian.jpg" alt='叶珊珊' class="intro-info-img pic-left" height='150' width='190'>
-                          </a>
-                        </div>
-                        <div class="txt">
-                            <a href='/3g/display/339513.html' title='叶珊珊' target='_self' style=''>叶珊珊</a>
-                        </div>
-                        <span class="date"></span>
-                    </div>
-                </li>
-                <li class="pic_list_1">
-                    <div class="pic_list_li">
-                        <div class="pic">
-                          <a href='/3g/display/339513.html' title='叶珊珊' target="_self">
-                            <img src="./images/mendian.jpg" alt='叶珊珊' class="intro-info-img pic-left" height='150' width='190'>
-                          </a>
-                        </div>
-                        <div class="txt">
-                            <a href='/3g/display/339513.html' title='叶珊珊' target='_self' style=''>叶珊珊</a>
-                        </div>
-                        <span class="date"></span>
-                    </div>
-                </li>
+                <asp:Repeater ID="joinList" runat="server">
+                    <ItemTemplate>
+                            <li class="pic_list_1">
+                            <div class="pic_list_li">
+                                <div class="pic">
+                                    <a href='./joindetail.aspx?id=<%#Eval("Id").ToString()%>' title='<%#Eval("Title").ToString()%>' target="_self">
+                                    <img src="<%#Eval("ImgUrl").ToString()%>" alt='懒汉杂粮粉' class="intro-info-img pic-left" style="height: 110px;">
+                                    </a>
+                                </div>
+                                <div class="txt">
+                                    <a href='./joindetail.aspx?id=<%#Eval("Id").ToString()%>' title='<%#Eval("Title").ToString()%>' target="_self"><%#Eval("Title").ToString()%></a>
+                                </div>
+                                <span class="date"></span>
+                            </div>
+                        </li>
+                    </ItemTemplate>
+                </asp:Repeater>
             </ul>
         </dd>
     </dl>
@@ -198,61 +154,33 @@
         <dd>
             <div class="news_list">
                 <ul class="list_news_01">
-                    <li class="even2">
-                        <span class='date'></span>
-                        <span class="topic">
-                            <a href='/3g/display/296339.html' title='五谷杂粮 13种五谷杂粮的功效与作用' target='_self' style=''>五谷杂粮 13种五谷...</a>
-                        </span>
-                        <img title='New' src='./images/Icons/new.gif' />
-                        <img title='推荐' src='./images/Icons/agree.gif' />
-                        <img title='热点' src='./images/Icons/hot_1.gif' />
-                        <img title='置顶' src='./images/Icons/ding_1.gif' />
-                    </li>
-                    <li class="even2">
-                        <span class='date'></span>
-                        <span class="topic">
-                            <a href='/3g/display/296339.html' title='五谷杂粮 13种五谷杂粮的功效与作用' target='_self' style=''>五谷杂粮 13种五谷...</a>
-                        </span>
-                        <img title='New' src='./images/Icons/new.gif' />
-                        <img title='推荐' src='./images/Icons/agree.gif' />
-                        <img title='热点' src='./images/Icons/hot_1.gif' />
-                        <img title='置顶' src='./images/Icons/ding_1.gif' />
-                    </li>
+                     <asp:Repeater ID="newsList" runat="server">
+                        <ItemTemplate>
+                            <li class="even2">
+                                <span class='date'></span>
+                                <span class="topic">
+                                    <a href="./newsDetail.aspx?id=<%#Eval("Id").ToString()%>"><%#Eval("Title").ToString()%></a>
+                                </span>
+                                <img title='New' src='./images/Icons/new.gif' />
+                                <%#Eval("isRed").ToString() == "1" ? "<img title='推荐' src='./images/Icons/agree.gif' />": "" %>
+                                <%#Eval("isHot").ToString() == "1" ? "<img title='热门' src='./images/Icons/hot_1.gif' />": "" %>
+                                <%#Eval("isTop").ToString() == "1" ? "<img title='置顶' src='./images/Icons/ding_1.gif' />": "" %>
+                                
+                            </li>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </ul>
             </div>
         </dd>
     </dl>
     <dl class="box">
         <dt class="title">
-            <a class="more arr-round arr-round-blue" href="/3g/info/66577.html"></a>
+            <a class="more arr-round arr-round-blue" href="/m/contactUs.aspx"></a>
             <div class="title_name">联系我们</div>
         </dt>
         <dd class="container">
             <div class="fixed_content">
-                <p>
-                  <span style="font-family:SimSun;font-size:14px;color:#333333;">
-                    <strong>合肥杜江餐饮企业管理有限公司</strong>
-                  </span>
-                </p>
-                <p style="font-family:SimSun;font-size:14px;">
-                  全国免费咨询热线：
-                  <strong>
-                    <span style="color:#fd0505;">13637084818</span>
-                  </strong>
-                </p>
-                <p style="font-family:SimSun;font-size:14px;">
-                  微信：dj13637084818
-                </p>
-                <p>
-                    <span style="font-family:SimSun;font-size:14px;color:#333333;">QQ: 6279458</span>
-                </p>
-                <p style="font-family:SimSun;font-size:14px;">
-                  地址：合肥市经开区大学城丹霞路金星商业街B区101
-                </p>
-                <a href="/3g/info/66577.html">
-                  <img src="./images/map-address.jpg" class='intro-info-img' />
-                </a>
-                <br />
+                <asp:Label ID="lbcontent" runat="server" Text=""></asp:Label> 
             </div>
         </dd>
     </dl>
