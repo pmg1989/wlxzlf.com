@@ -34,7 +34,7 @@
         </a>
       </li>
       <li class="map_li">
-        <a href="#" id="BottomContact">
+        <a href="/m/contactUs.aspx" id="BottomContact">
           <span class="icons icon-map">&nbsp;</span>地图
         </a>
       </li>
