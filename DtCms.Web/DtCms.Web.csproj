@@ -69,64 +69,8 @@
     <Content Include="Admin\Images\ico-3_.png" />
     <Content Include="Admin\Images\ico-4_.png" />
     <Content Include="Admin\Images\ico-5_.png" />
+    <Content Include="App_Data\DtCms.mdb" />
     <Content Include="contactUs.aspx" />
-    <Content Include="Css\bdsstyle.css" />
-    <Content Include="Css\common.js" />
-    <Content Include="Css\custom-theme\images\ui-bg_diagonals-medium_20_423e3e_40x40.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_flat_0_564e4e_40x100.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_flat_0_6b97c1_40x100.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_flat_30_000000_40x100.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_glass_75_08b6ed_1x400.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_glass_75_0cb9ee_1x400.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_glass_75_4cd6f6_1x400.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_glass_75_fddfa1_1x400.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_gloss-wave_75_89a6ca_500x100.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_gloss-wave_75_90b5d6_500x100.png" />
-    <Content Include="Css\custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_222222_256x240.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_454545_256x240.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_5587b8_256x240.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_a2c0df_256x240.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_fafafa_256x240.png" />
-    <Content Include="Css\custom-theme\images\ui-icons_ffffff_256x240.png" />
-    <Content Include="Css\custom-theme\jquery-ui-1.7.2.custom.css" />
-    <Content Include="Css\demo.css" />
-    <Content Include="Css\focus.swf" />
-    <Content Include="Css\icon2.jpg" />
-    <Content Include="Css\IconSearch.jpg" />
-    <Content Include="Css\image1.gif" />
-    <Content Include="Css\image2.gif" />
-    <Content Include="Css\images\bg_02.jpg" />
-    <Content Include="Css\images\bg_movies.jpg" />
-    <Content Include="Css\images\hd.jpg" />
-    <Content Include="Css\images\icon3.jpg" />
-    <Content Include="Css\images\icon5.jpg" />
-    <Content Include="Css\images\IconNavBg.jpg" />
-    <Content Include="Css\images\IconNav_09.jpg" />
-    <Content Include="Css\images\LeftProBg0.jpg" />
-    <Content Include="Css\images\LeftProBg1.jpg" />
-    <Content Include="Css\images\LeftProBg2.jpg" />
-    <Content Include="Css\images\LeftProBg3.jpg" />
-    <Content Include="Css\images\LeftProBg4.jpg" />
-    <Content Include="Css\images\NavBg.jpg" />
-    <Content Include="Css\images\NoteBg_46.jpg" />
-    <Content Include="Css\images\searchBg.jpg" />
-    <Content Include="Css\index_04.jpg" />
-    <Content Include="Css\jquery.jqzoom.css" />
-    <Content Include="Css\jquery.slider.css" />
-    <Content Include="Css\left-img.css" />
-    <Content Include="Css\left-img.min.css" />
-    <Content Include="Css\logger.js" />
-    <Content Include="Css\meneame.jpg" />
-    <Content Include="Css\pagination.css" />
-    <Content Include="Css\StyleSheet.css" />
-    <Content Include="Css\ytabs.js" />
-    <Content Include="Css\ZhengZ.js" />
     <Content Include="favicon.ico" />
     <Content Include="FCKedit\editor\css\behaviors\disablehandles.htc" />
     <Content Include="FCKedit\editor\css\behaviors\showtableborders.htc" />
@@ -410,14 +354,8 @@
     <Content Include="FCKedit\fckeditor.js" />
     <Content Include="FCKedit\fckstyles.xml" />
     <Content Include="FCKedit\fcktemplates.xml" />
-    <Content Include="Images\bg.gif" />
-    <Content Include="Images\emessage.gif" />
     <Content Include="Images\error.gif" />
-    <Content Include="Images\icon5.jpg" />
-    <Content Include="Images\icoUp.gif" />
-    <Content Include="Images\left.gif" />
-    <Content Include="Images\right.gif" />
-    <Content Include="Images\zoomloader.gif" />
+    <Content Include="Images\nopic.gif" />
     <Content Include="img\kf.jpg" />
     <Content Include="img\pa.gif" />
     <Content Include="img\pa_002.gif" />
@@ -447,9 +385,7 @@
     <Content Include="leftMenu.ascx" />
     <Content Include="leftTuijian.ascx" />
     <Content Include="lineMessage.aspx" />
-    <Content Include="m\about-us.html" />
     <Content Include="m\aboutUs.aspx" />
-    <Content Include="m\contact-us.html" />
     <Content Include="m\contactUs.aspx" />
     <Content Include="m\css\layout.css" />
     <Content Include="m\css\main.css" />
@@ -472,16 +408,10 @@
     <Content Include="m\images\map-address.jpg" />
     <Content Include="m\images\mendian.jpg" />
     <Content Include="m\index.aspx" />
-    <Content Include="m\index.html" />
-    <Content Include="m\join-list.html" />
     <Content Include="m\joindetail.aspx" />
     <Content Include="m\joinlist.aspx" />
-    <Content Include="m\news-detail.html" />
     <Content Include="m\news.aspx" />
-    <Content Include="m\news.html" />
     <Content Include="m\newsDetail.aspx" />
-    <Content Include="m\product-detail.html" />
-    <Content Include="m\product.html" />
     <Content Include="m\productdetail.aspx" />
     <Content Include="m\productlist.aspx" />
     <Content Include="m\Top.ascx" />
@@ -926,32 +856,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Css\left-img.scss" />
     <None Include="FCKedit\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.cfm" />
     <None Include="FCKedit\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.php" />
     <None Include="FCKedit\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.pl" />
     <Content Include="addLinks.aspx" />
-    <Content Include="Images\add_link.png" />
-    <Content Include="Images\comment_add.png" />
-    <Content Include="Images\download.gif" />
     <Content Include="Links.aspx" />
     <Content Include="Tools\VerifyCodeImage.ashx" />
     <Content Include="Admin\Js\multipleupload.js" />
-    <Content Include="Css\style.css" />
-    <Content Include="Images\1.jpg" />
-    <Content Include="Images\body_bg.png" />
-    <Content Include="Images\down_bg.gif" />
-    <Content Include="Images\down_btn.png" />
-    <Content Include="Images\icons.gif" />
-    <Content Include="Images\ico_1.gif" />
-    <Content Include="Images\ico_2.gif" />
-    <Content Include="Images\ico_3.gif" />
-    <Content Include="Images\ico_4.gif" />
-    <Content Include="Images\ico_5.gif" />
-    <Content Include="Images\ico_6.gif" />
-    <Content Include="Images\logo.png" />
-    <Content Include="Images\nav_bg.png" />
-    <Content Include="Images\p1_bg.png" />
     <Content Include="Tools\MultipleUpload.ashx" />
     <Content Include="Admin\Images\loading.gif" />
     <Content Include="Admin\Images\upfilebg.gif" />
@@ -999,11 +910,6 @@
     <Content Include="Admin\Products\Edit.aspx" />
     <Content Include="Admin\Products\List.aspx" />
     <Content Include="Footer.ascx" />
-    <Content Include="Images\focus.swf" />
-    <Content Include="Images\nopic.gif" />
-    <Content Include="Images\Player.swf" />
-    <Content Include="Images\tabs_left.gif" />
-    <Content Include="Images\tabs_right.gif" />
     <Content Include="index.aspx" />
     <Content Include="Js\calendar.js" />
     <Content Include="News.aspx" />
@@ -1073,6 +979,10 @@
     <Content Include="Admin\Manage\Edit.aspx" />
     <Content Include="Admin\Manage\List.aspx" />
     <Content Include="Top.ascx" />
+    <Content Include="Images\library\Thumbs.db" />
+    <Content Include="Images\library\vssver2.scc" />
+    <None Include="Properties\PublishProfiles\配置文件1.pubxml" />
+    <Content Include="XmlConfig\WebSet.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DtCms.ActionLabel\DtCms.ActionLabel.csproj">
@@ -1101,9 +1011,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="Css\" />
     <Folder Include="UpLoadFiles\" />
-    <Folder Include="XmlConfig\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
