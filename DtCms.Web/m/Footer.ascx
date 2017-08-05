@@ -15,7 +15,7 @@
             <div class="cr" align="justify"></div>
         <p>
             合肥程飞餐饮管理有限公司 &nbsp;  版权所有&nbsp;&nbsp;<br />
-            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">皖ICP备17017950号</a>
+            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow"><%=webset.WebCrod %></a>
             <a class="ke-tmlp">
                 <span class="s-red">&nbsp;&nbsp;</span>
             </a>
@@ -23,13 +23,14 @@
                 <span class="s-red">
                 <a href="http://www.ibw.cn/mianze.htm" target="_blank" rel="nofollow">免责声明</a>
                 </span>
-            </a>
+            </a><br />
+            <span>网站技术支持：潘明高</span>
         </p>
     </div>
 
     <ul id="fixed-foot">
       <li class="tel_li">
-        <a href="tel:15955133009" id="BottomPhone">
+        <a href="tel:<%=webset.WebTel %>" id="BottomPhone">
           <span class="icons icon-tel">&nbsp;</span>电话
         </a>
       </li>

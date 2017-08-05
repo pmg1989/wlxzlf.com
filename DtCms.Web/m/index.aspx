@@ -37,7 +37,7 @@
                 <ul class="telbox">
                     <li class="col1">
                         <div class="wrap">
-                            <a id="tel_btn" href="tel:15955133009"><i class="icons icon-tel"></i>拨打电话</a>
+                            <a id="tel_btn" href="tel:<%=webset.WebTel %>"><i class="icons icon-tel"></i>拨打电话</a>
                         </div>
                     </li>
                     <li class="col2">

@@ -18,7 +18,7 @@
 <div id="header">
     <div class="logo">
         <div class="logoimg" style="background:url(./images/logo.jpg) no-repeat 50% 50%;background-size:contain">
-            <a id="logoTel" href="tel:15955133009"></a>
+            <a id="logoTel" href="tel:<%=webset.WebTel %>"></a>
         </div>
     </div>
     <div class="navBtn">
