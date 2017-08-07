@@ -14,26 +14,16 @@ namespace DtCms.Web
         {
             if (!IsPostBack)
             {
-                TuijianProBound();//左侧栏推荐产品绑定
+                TuijianNewsBound();//左侧栏推荐新闻绑定
             }
         }
 
-        private void TuijianProBound()
+        private void TuijianNewsBound()
         {
-            DtCms.BLL.Products bllproduct = new DtCms.BLL.Products();
-            DataSet ds = bllproduct.GetList(8, "IsLock = 0 and IsRed = 1", "isTop desc,ClassId asc,Id desc");
-            if (ds.Tables[0].Rows.Count > 0)
-            {
-                try
-                {
-                    RepeaterTuijianPro.DataSource = ds.Tables[0].DefaultView;
-                    RepeaterTuijianPro.DataBind();
-                }
-                catch (Exception ex)
-                {
-                    throw new Exception(ex.Message);
-                }
-            }
+            DtCms.BLL.Article bll = new DtCms.BLL.Article();
+            //查询绑定数据
+            this.newsList.DataSource = bll.GetList(8, "IsLock = 0 and isRed=1", "isTop desc,ClassId asc,Id desc");
+            this.newsList.DataBind();
         }
     }
 }

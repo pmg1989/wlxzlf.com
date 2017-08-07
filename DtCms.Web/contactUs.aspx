@@ -15,42 +15,12 @@
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
-<body id="home">
-    <%--<DtCmsControl:top ID="Header" runat="server" />
-    <div class="MainBar">
-        <div class="LeftBar">
-            <div class="LeftNav1">
-                <DtCmsControl:leftmenu ID="leftmenu" runat="server" />
-            </div>
-            <DtCmsControl:lefttuijian ID="lefttuijian1" runat="server" />
-        </div>
-        <div class="RightBar">
-
-            <div class="RightAd">
-              <script type="text/javascript" src="/Tools/Advert_js.ashx?id=6"></script>
-            </div>
-            <p class="Text1">
-            </p>
-            <div class="ProDetail">
-                <h2>
-                    联系我们
-                </h2>
-
-                <div class="NeiCon">
-                    <asp:Label ID="lbcontent" runat="server" Text=""></asp:Label>
-                </div>
-
-                <div style="clear: both;">
-                </div>
-            </div>
-        </div>
-    </div>
-    <DtCmsControl:footer ID="Footer" runat="server" />--%>
+<body>
     <div class="pg_margins">
       <DtCmsControl:top ID="Header" runat="server" />
       <div class="main-home inner">
         <div class="ad_top">
-          <img src="./images/ad_jiameng.jpg" />
+          <script type="text/javascript" src="/Tools/Advert_js.ashx?id=6"></script>
         </div>
         <div class="main mainbg ">
             <div class="location">
@@ -60,68 +30,7 @@
                     <a href="/contactUs.aspx">联系我们</a>
                 </span>
             </div>
-            <div id="leftObj" class="left">
-                <div class="shadow"></div>
-                <div class="box">
-                    <input id="CurrentCategoryID" name="CurrentCategoryID" type="hidden" value="66578">
-                    <div class="title">
-                        <div class="title_more">
-                            <a href="/info/66578.html" id="66578">联系我们</a>
-                        </div>
-                    </div>
-                    <div class="menu">
-                        <dl>
-                            <dt class=" " id="66579">
-                                 <a href="/info/66579.html " id="66579">
-                                &nbsp;&nbsp;&nbsp;&nbsp;资讯动态</a>
-                            </dt>
-                            <dt class=" " id="66580">
-                                 <a href="/info/66580.html " id="66580">
-                                &nbsp;&nbsp;&nbsp;&nbsp;常见问题</a>
-                            </dt>
-                        </dl>
-                    </div>
-                </div>
-                <div id="ct66579_divLeftModule">
-                    <div class="box">
-                            <div class="title">
-                                <div class="title_more">推荐资讯</div>
-                            </div>
-                        <div class="content">
-                            <div class="news_list">
-                              <ul class="list_news_01">
-                                <li class="even2">
-                	                 <span class="date"></span>
-                	                  <span class="topic">
-                                      <a href="/display/296339.html" title="五谷杂粮 13种五谷杂粮的功效与作用" target="_self" style="">五谷杂粮 13种五谷杂粮...</a>
-                                    </span>
-                	              </li>
-                                <li class="even">
-                	                 <span class="date"></span>
-                	                  <span class="topic">
-                                      <a href="/display/296338.html" title="五谷杂粮的七大好处" target="_self" style="">五谷杂粮的七大好处</a>
-                                    </span>
-                	              </li>
-                                <li class="even2">
-                	                 <span class="date"></span>
-                	                  <span class="topic"><a href="/display/296166.html" title="五谷杂粮的养生意义" target="_self" style="">五谷杂粮的养生意义</a>
-                                    </span>
-                	              </li>
-                                <li class="even">
-                	                 <span class="date"></span>
-                	                  <span class="topic">
-                                      <a href="/display/296162.html" title="五谷杂粮使人更加漂亮" target="_self" style="">五谷杂粮使人更加漂亮</a>
-                                    </span>
-                	              </li>
-
-                              </ul>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="col_bottom"></div>
-            </div>
+            <DtCmsControl:lefttuijian ID="lefttuijian1" runat="server" />
             <div id="rightObj" class="right">
               <div class="description_text" style="text-indent:0;">
                  <asp:Label ID="lbcontent" runat="server" Text=""></asp:Label>

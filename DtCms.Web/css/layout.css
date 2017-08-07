@@ -33,11 +33,11 @@
 
 .ad_top {
   margin-bottom: 10px;
+}
 
-  img {
+.ad_top img {
     width: 100%;
     display: block;
-  }
 }
 
 .description_text {

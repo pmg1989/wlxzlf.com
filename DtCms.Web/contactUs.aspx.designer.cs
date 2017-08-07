@@ -31,6 +31,15 @@ namespace DtCms.Web {
         protected global::DtCms.Web.Top Header;
         
         /// <summary>
+        /// lefttuijian1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DtCms.Web.leftTuijian lefttuijian1;
+        
+        /// <summary>
         /// lbcontent control.
         /// </summary>
         /// <remarks>
