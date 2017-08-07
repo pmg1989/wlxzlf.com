@@ -503,7 +503,7 @@ div.pagernumber{float:none!important;padding:0 0 20px!important}
 .thumb_box_slide .title_more{font-weight:bold;font-size:14px;color:#fff;padding:0 28px;line-height:42px;overflow:hidden;background:url(title_more_icon.png) no-repeat 10px 50%}
 
 .thumb_box{border:1px solid #e7e7e7;margin:0 0 10px;}
-.thumb_box .title{position:relative;background:url(nav_active.jpg) repeat-x 50%}
+.thumb_box .title{position:relative;background-color: #eab021;repeat-x 50%}
 .thumb_box .title_more{font-weight:bold;font-size:14px;color:#fff;padding:0 28px;line-height:42px;overflow:hidden;background:url(title_more_icon.png) no-repeat 10px 50%}
 .thumb_box .content{padding:10px;line-height:22px;}
 .thumb_box .img_content_title{padding:0 0 4px;font-weight:bold;}
