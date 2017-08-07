@@ -35,6 +35,22 @@
       </div>
     </div>
 
+    <div class="box">
+      <div class="picBox">
+        <div id="slider2" class="swipe">
+            <ul class="piclist piclist_row_2">
+                <li><a href=""><img src="http://www.ahlhzlf.com/u/e545af76-ed44-46b0-901d-ad44c96e2dce/image/0635968596952351701.jpg"></a></li>
+                <li><a href=""><img src="http://www.ahlhzlf.com/u/e545af76-ed44-46b0-901d-ad44c96e2dce/image/1636101386596107998.jpg"></a></li>
+                <li><a href=""><img src="http://www.ahlhzlf.com/u/e545af76-ed44-46b0-901d-ad44c96e2dce/image/0635968596952351701.jpg"></a></li>
+            </ul>
+        </div>
+        <div id="pagenavi2" class="icon_num">
+            <a href="javascript:;" class="active">&nbsp;</a>
+            <a href="javascript:;">&nbsp;</a>
+            <a href="javascript:;">&nbsp;</a>
+        </div>
+    </div>
+    </div>
     <dl class="box">
         <dd>
             <div class="fixed_content">
@@ -286,5 +302,32 @@
             </a>
         </p>
     </div>
+    <script src="./js/zepto.min.js"></script>
+    <script src="http://www.ahlhzlf.com/3g/Scripts/touchslider-1.0.5/touchslider.min.js"></script>
+    <script type="text/javascript">
+        var bannerSlide;
+        $(function () {
+            var jsBtns = $("#pagenavi2 > a");
+            bannerSlide = new TouchSlider({
+                id: 'slider2',
+                auto: '0',
+                fx: 'ease-out',
+                direction: 'left',
+                speed: 400,
+                timeout: 5000,
+                before: function (index) {
+                  if (jsBtns.length > 0) {
+                      jsBtns.removeClass('active');
+                      jsBtns.get(index).className = 'active';
+                  }
+                }
+            });
+
+            jsBtns.on('click', function() {
+              bannerSlide.slide($(this).index());
+              return false;
+            })
+        })
+    </script>
   </body>
 </html>
