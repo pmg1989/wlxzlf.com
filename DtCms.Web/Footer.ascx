@@ -1,34 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Footer.ascx.cs" Inherits="DtCms.Web.Footer" %>
-
-<%--<div class="links">
-    <div class="nTxt">
-        友情链接：<%=DtCms.ActionLabel.Links.ViewImgList(10, "IsRed=1 and IsImage=0 and IsLock=0", "SortId asc,AddTime desc") %>
-    </div>
-    <div class="nImg">
-        <ul>
-            <%=DtCms.ActionLabel.Links.ViewImgList(10, "IsRed=1 and IsImage=1 and IsLock=0", "SortId asc,AddTime desc") %>
-        </ul>
-    </div>
-    <div class="clear">
-    </div>
-</div>
-<div class="Footer">
-    <p>
-        客服电话：<%=webset.WebTel %>
-        传真：<%=webset.WebFax %>
-        管理员信箱：<%=webset.WebEmail %>
-        版权所有：
-        <%=webset.WebName %>
-        <a href="http://www.miitbeian.gov.cn/">
-            <%=webset.WebCrod %></a><br>
-        对本站有任何建议、意见或投诉，请联系我们
-        <%=webset.WebUrl %>
-        网站技术支持：潘明高</p>
-    <p>
-        <%=webset.WebCopyright %></p>
-</div>
-<div class="footer clear">
-</div>--%>
     <div class="ftLinkWrap">
           <div class="ftLink clearfix">
               <div class="ftLink-l">
