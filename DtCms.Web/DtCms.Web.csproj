@@ -70,6 +70,12 @@
     <Content Include="Admin\Images\ico-5_.png" />
     <Content Include="App_Data\DtCms.mdb" />
     <Content Include="contactUs.aspx" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\pagination.css" />
+    <Content Include="css\site.css" />
+    <Content Include="css\skin-0.css" />
+    <Content Include="css\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="FCKedit\editor\css\behaviors\disablehandles.htc" />
     <Content Include="FCKedit\editor\css\behaviors\showtableborders.htc" />
@@ -409,6 +415,8 @@
     <Content Include="m\index.aspx" />
     <Content Include="m\joindetail.aspx" />
     <Content Include="m\joinlist.aspx" />
+    <Content Include="m\js\touchslider.min.js" />
+    <Content Include="m\js\zepto.min.js" />
     <Content Include="m\news.aspx" />
     <Content Include="m\newsDetail.aspx" />
     <Content Include="m\productdetail.aspx" />
@@ -1010,7 +1018,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Css\" />
     <Folder Include="UpLoadFiles\" />
   </ItemGroup>
   <PropertyGroup>

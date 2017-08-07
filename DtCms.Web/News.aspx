@@ -11,7 +11,8 @@
     <title>新闻中心 -
         <%=webset.WebName %></title>
     <%=AddMetaInfo(webset.WebKeywords,webset.WebDescription,"") %>
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link type="text/css" rel="stylesheet" href="css/pagination.css" />
     <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.pagination.js"></script>

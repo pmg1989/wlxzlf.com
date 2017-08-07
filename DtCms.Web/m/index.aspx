@@ -31,6 +31,22 @@
 <body>
     <DtCmsControl:Top runat="server" id="Top" />
 
+    <div class="box">
+      <div class="picBox">
+        <div id="slider2" class="swipe">
+            <ul class="piclist piclist_row_2" style="width:380px;">
+                <li><a href=""><img src="/UpLoadFiles/20170804/080423515641.jpg" style="width: 100%;"></a></li>
+                <li><a href=""><img src="/UpLoadFiles/20170804/080423515641.jpg" style="width: 100%;"></a></li>
+                <li><a href=""><img src="/UpLoadFiles/20170804/080423515641.jpg" style="width: 100%;"></a></li>
+            </ul>
+        </div>
+        <div id="pagenavi2" class="icon_num">
+            <a href="javascript:;" class="active">&nbsp;</a>
+            <a href="javascript:;">&nbsp;</a>
+            <a href="javascript:;">&nbsp;</a>
+        </div>
+     </div>
+    </div>
     <dl class="box">
         <dd>
             <div class="fixed_content">
@@ -114,7 +130,7 @@
                         <a href='/3g/display/290473.html' title='懒汉杂粮粉' target='_self' style=''>懒汉杂粮粉</a>
                     </dt>
                     <dd class="img_content_views">
-                      合肥杜江餐饮企业管理有限公司成立于2008年，经过不断发展，形成了公司的核心品牌“懒汉杂粮粉”， 成为了安徽杂粮粉名小吃之一，“懒汉杂粮粉”遵循“以顾客为导向、以品质为基础”的发展理念，坚持以创新和创造更高顾客满意为目标，围绕“品质、服务、...
+                      合肥程飞餐饮管理有限公司成立于2008年，经过不断发展，形成了公司的核心品牌“懒汉杂粮粉”， 成为了安徽杂粮粉名小吃之一，“懒汉杂粮粉”遵循“以顾客为导向、以品质为基础”的发展理念，坚持以创新和创造更高顾客满意为目标，围绕“品质、服务、...
                     </dd>
                 </dl>
             </div>
@@ -186,5 +202,32 @@
     </dl>
 
     <DtCmsControl:Footer runat="server" id="Footer" />
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/touchslider.min.js"></script>
+    <script type="text/javascript">
+        var bannerSlide;
+        $(function () {
+            var jsBtns = $("#pagenavi2 > a");
+            bannerSlide = new TouchSlider({
+                id: 'slider2',
+                auto: '0',
+                fx: 'ease-out',
+                direction: 'left',
+                speed: 400,
+                timeout: 5000,
+                before: function (index) {
+                  if (jsBtns.length > 0) {
+                      jsBtns.removeClass('active');
+                      jsBtns.get(index).className = 'active';
+                  }
+                }
+            });
+
+            jsBtns.on('click', function() {
+              bannerSlide.slide($(this).index());
+              return false;
+            })
+        })
+    </script>
 </body>
 </html>

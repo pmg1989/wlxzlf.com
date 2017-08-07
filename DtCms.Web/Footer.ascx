@@ -1,10 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Footer.ascx.cs" Inherits="DtCms.Web.Footer" %>
-      <link href="Css/StyleSheet.css" rel="stylesheet" type="text/css" />
-    <link type="text/css" rel="stylesheet" href="Css/bdsstyle.css" />
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-<div class="RemarkBar">
-</div>
-<div class="links">
+
+<%--<div class="links">
     <div class="nTxt">
         友情链接：<%=DtCms.ActionLabel.Links.ViewImgList(10, "IsRed=1 and IsImage=0 and IsLock=0", "SortId asc,AddTime desc") %>
     </div>
@@ -32,7 +28,46 @@
         <%=webset.WebCopyright %></p>
 </div>
 <div class="footer clear">
-</div>
+</div>--%>
+    <div class="ftLinkWrap">
+          <div class="ftLink clearfix">
+              <div class="ftLink-l">
+                  <strong>友情链接：</strong>
+                      <a href="http://www.baidu.com" target="_blank">百度</a>|
+                      <a href="http://www.ibw.cn" target="_blank">安徽网新</a>|
+                     <a href="http://www.zhaoyee.cn" target="_blank">诏业科技</a>|
+                     <a href="http://idc.ibw.cn" target="_blank">域名空间</a>|
+                     <a href="http://seo.ibw.cn" target="_blank">网站优化</a>|
+                     <a href="" target="_blank">百度糯米</a>|
+                     <a href="http://www.ah.cn" target="_blank">徽商网</a>
+              </div>
+          </div>
+    </div>
+    <div class="footer">
+        <div class="ft-wrap">
+            <div class="copyright">
+            <div class="cr">
+                <p>
+            	    <%=webset.WebName %>&nbsp;&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.ibw.cn/mianze.htm" target="_blank" rel="nofollow">免责声明</a>&nbsp;&nbsp;&nbsp;
+                    <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow"><%=webset.WebCrod %></a>&nbsp;&nbsp;
+                </p>
+                <p>
+            	    地址：安徽省合肥市庐阳区蒙城路1166号恒盛皇家花园16栋1306室<span style="line-height:1.5;">&nbsp;</span>
+                </p>
+                <p>
+            	    <br>
+                </p>
+                <p>
+            	    <span>电话：<span><%=webset.WebTel %></span>&nbsp;</span>
+                </p>
+                <p>
+            	    设计制作：<a href="http://www.ibw.cn" target="_blank">牛班科技</a>
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
 <style>
     .QQbox
     {
