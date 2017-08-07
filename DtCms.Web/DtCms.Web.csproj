@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.htm" />
+    <Content Include="aboutUs.aspx" />
     <Content Include="Admin\Images\ico-0_.png" />
     <Content Include="Admin\Images\ico-1_.png" />
     <Content Include="Admin\Images\ico-2_.png" />
@@ -70,11 +71,35 @@
     <Content Include="Admin\Images\ico-5_.png" />
     <Content Include="App_Data\DtCms.mdb" />
     <Content Include="contactUs.aspx" />
+    <Content Include="css\custom-theme\images\ui-bg_diagonals-medium_20_423e3e_40x40.png" />
+    <Content Include="css\custom-theme\images\ui-bg_flat_0_564e4e_40x100.png" />
+    <Content Include="css\custom-theme\images\ui-bg_flat_0_6b97c1_40x100.png" />
+    <Content Include="css\custom-theme\images\ui-bg_flat_30_000000_40x100.png" />
+    <Content Include="css\custom-theme\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="css\custom-theme\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="css\custom-theme\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\custom-theme\images\ui-bg_glass_75_08b6ed_1x400.png" />
+    <Content Include="css\custom-theme\images\ui-bg_glass_75_0cb9ee_1x400.png" />
+    <Content Include="css\custom-theme\images\ui-bg_glass_75_4cd6f6_1x400.png" />
+    <Content Include="css\custom-theme\images\ui-bg_glass_75_fddfa1_1x400.png" />
+    <Content Include="css\custom-theme\images\ui-bg_gloss-wave_75_89a6ca_500x100.png" />
+    <Content Include="css\custom-theme\images\ui-bg_gloss-wave_75_90b5d6_500x100.png" />
+    <Content Include="css\custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="css\custom-theme\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\custom-theme\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\custom-theme\images\ui-icons_454545_256x240.png" />
+    <Content Include="css\custom-theme\images\ui-icons_5587b8_256x240.png" />
+    <Content Include="css\custom-theme\images\ui-icons_a2c0df_256x240.png" />
+    <Content Include="css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\custom-theme\images\ui-icons_fafafa_256x240.png" />
+    <Content Include="css\custom-theme\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\custom-theme\jquery-ui-1.7.2.custom.css" />
     <Content Include="css\layout.css" />
     <Content Include="css\main.css" />
     <Content Include="css\pagination.css" />
     <Content Include="css\site.css" />
     <Content Include="css\skin-0.css" />
+    <Content Include="css\style.css" />
     <Content Include="css\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="FCKedit\editor\css\behaviors\disablehandles.htc" />
@@ -432,6 +457,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aboutUs.aspx.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutUs.aspx.designer.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="addLinks.aspx.cs">
       <DependentUpon>addLinks.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -863,6 +895,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\custom-theme\images\Thumbs.db" />
+    <Content Include="css\custom-theme\images\vssver2.scc" />
     <None Include="FCKedit\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.cfm" />
     <None Include="FCKedit\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.php" />
     <None Include="FCKedit\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.pl" />
