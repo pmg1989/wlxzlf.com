@@ -206,7 +206,6 @@
     </dl>
 
     <DtCmsControl:Footer runat="server" id="Footer" />
-    <script src="./js/zepto.min.js"></script>
     <script src="./js/touchslider.min.js"></script>
     <script type="text/javascript">
         var bannerSlide;

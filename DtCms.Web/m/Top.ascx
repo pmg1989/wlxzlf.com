@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Top.ascx.cs" Inherits="DtCms.Web.m.Top" %>
 
-<%--<script>
+<script src="./js/zepto.min.js"></script>
+<script>
     var pathname = window.location.pathname;
     var isMobilePage = pathname.indexOf('/m/') > -1
     var redirectName = pathname.substr(pathname.lastIndexOf('/') + 1) + location.search
@@ -13,7 +14,21 @@
             window.location.href = "/" + redirectName
         }
     }
-</script>--%>
+</script>
+<script>
+    $(function () {
+        var dic = {
+            '/m/index.aspx': 0,
+            '/m/aboutUs.aspx': 1,
+            '/m/productlist.aspx': 2,
+            '/m/joinlist.aspx': 3,
+            '/m/news.aspx': 4,
+            '/m/contactUs.aspx': 1
+        }
+        var cur = dic[location.pathname]
+        $('.navArea ul li').eq(cur).find('a').addClass('current');
+    })
+</script>
 
 <div id="header">
     <div class="logo">
@@ -24,7 +39,7 @@
     <div class="navBtn">
     <div class="navArea">
         <ul>
-        <li><div class="wrap"><a class="current" href="/m/index.aspx">首页</a></div></li>
+        <li><div class="wrap"><a href="/m/index.aspx">首页</a></div></li>
         <li><div class="wrap"><a href="/m/aboutUs.aspx">介绍</a></div></li>
         <li><div class="wrap"><a href="/m/productlist.aspx">产品</a></div></li>
         <li><div class="wrap"><a href="/m/joinlist.aspx">案例</a></div></li>
