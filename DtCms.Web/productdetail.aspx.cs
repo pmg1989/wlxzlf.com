@@ -10,7 +10,7 @@ namespace DtCms.Web
 {
     public partial class productdetail : DtCms.Web.UI.BasePage
     {
-        private int proId;
+        public int proId;
         private int classId;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -30,8 +30,6 @@ namespace DtCms.Web
 
                     addClick();//增加点击率
                     ProductDetailBound();
-                    daohangBound();//导航绑定
-                    XiangguanTuijianProBound();//底部相关产品推荐绑定
                 }
             }
         }
@@ -42,49 +40,16 @@ namespace DtCms.Web
             bllproduct.UpdateField(proId,"Click = Click + 1");
         }
 
-        private void XiangguanTuijianProBound()
-        {
-            DtCms.BLL.Products bllproduct = new DtCms.BLL.Products();
-            DataSet ds = bllproduct.GetList(10, "IsLock = 0 and IsRed = 1 and ClassId = " + classId + " and Id <>" + proId , "isTop desc,ClassId asc,Id desc");
-            if (ds.Tables[0].Rows.Count > 0)
-            {
-                try
-                {
-                    RepeaterXiangguanTuijian.DataSource = ds.Tables[0].DefaultView;
-                    RepeaterXiangguanTuijian.DataBind();
-                }
-                catch (Exception ex)
-                {
-                    throw new Exception(ex.Message);
-                }
-            }
-        }
-
-        private void daohangBound()
-        {
-            DtCms.BLL.Channel bll = new DtCms.BLL.Channel();
-            if (proId != 0)
-            {
-                string channelTitle = bll.GetChannelTitle(classId);
-                this.lbdaohang2.Text = channelTitle;
-
-                DtCms.Model.Channel modchannel = bll.GetModel(classId);
-                modchannel = bll.GetModel(modchannel.ParentId);
-                this.lbdaohang1.Text = modchannel.Title;
-            }
-        }
 
         private void ProductDetailBound()
         {
             DtCms.BLL.Products bllproduct = new BLL.Products();
             DtCms.Model.Products modproduct = bllproduct.GetModel(proId);
             this.lbtitle.Text = modproduct.Title;
-            this.lbdaohangtitle.Text = modproduct.Title;
-            this.lbxinghao.Text = modproduct.Xinghao;
-            this.lbguige.Text = modproduct.Guige;
             this.lbprice.Text = modproduct.Price.ToString();
+            this.lbClick.Text = modproduct.Click.ToString();
             //this.lbcontent.Text = DtCms.Common.StringPlus.DropHTML(modproduct.Content);
-            this.lbcontent.Text = modproduct.Content;
+            //this.lbcontent.Text = modproduct.Content;
             //ViewState["jqzoom"] = modproduct.ImgUrl;
 
             string[] imgs = modproduct.ImgUrl.Split(' ');
@@ -98,7 +63,7 @@ namespace DtCms.Web
                 dr["ImgUrl"] = imgs[i];
                 table.Rows.Add(dr);
             }
-            this.bigImg.ImageUrl = imgs[0];
+            //this.bigImg.ImageUrl = imgs[0];
             this.Repeater1.DataSource = table.DefaultView;
             this.Repeater1.DataBind();
             //this.Repeater2.DataSource = table.DefaultView;

@@ -7,184 +7,65 @@
 <%@ Register Src="Footer.ascx" TagName="footer" TagPrefix="DtCmsControl" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-    <title>产品专区 -
+<head id="Head2" runat="server">
+    <title>关于我们 -
         <%=webset.WebName %></title>
-    <%=AddMetaInfo(webset.WebKeywords,webset.WebDescription,"") %>
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-    <script src="Js/jquery-1.5.js" type="text/javascript"></script>
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link href="Css/left-img.css" rel="stylesheet" type="text/css" />
-    <link href="Css/jquery.jqzoom.css" rel="stylesheet" type="text/css" />
-    <script src="Js/jquery.jqzoom-core-2.js" type="text/javascript"></script>
-    <style type="text/css">
-        .MainNav li.productlist a
-        {
-            background-image: url("Css/images/IconNav_09.jpg");
-        }
-    </style>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            var firstImg = $(".left-box .small ul li").eq(0).find("a").addClass("zoomThumbActive").find("img").attr("src");
-            $(".left-box .big a").attr("href", firstImg);
-            $(".left-box .big a img").attr("src",firstImg);
-            $('.jqzoom').jqzoom({
-                zoomType: 'standard',
-                lens: true,
-                preloadImages: false,
-                alwaysOn: false,
-                zoomWidth: 500,
-                zoomHeight: 500,
-                xOffset: 90
-            });
-        });
-    </script>
+<%--    <%=AddMetaInfo(webset.WebKeywords,webset.WebDescription,"") %>--%>
+    <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
-<body id="home">
-    <DtCmsControl:top ID="Header" runat="server" />
-    <div class="MainBar">
-        <div class="LeftBar">
-            <div class="LeftNav1">
-                <DtCmsControl:leftmenu ID="leftmenu" runat="server" />
-            </div>
-            <DtCmsControl:lefttuijian ID="lefttuijian1" runat="server" />
+<body>
+    <div class="pg_margins">
+      <DtCmsControl:top ID="Top1" runat="server" />
+      <div class="main-home inner">
+        <div class="ad_top">
+          <script type="text/javascript" src="/Tools/Advert_js.ashx?id=6"></script>
         </div>
-        <div class="RightBar">
-            <p class="Text1">
-            </p>
-            <div class="ProDetail">
-                <h2>
-                    产品专区 &gt;&gt;
-                    <asp:Label ID="lbdaohang1" runat="server" Text=""></asp:Label>
-                    &nbsp;>>
-                    <asp:Label ID="lbdaohang2" runat="server" Text=""></asp:Label>
-                    &nbsp;>>
-                    <asp:Label ID="lbdaohangtitle" runat="server" Text=""></asp:Label>
-                </h2>
-                <%--<div class="detailImg">
-                    <div class="outDiv" id="content" style="height: 300px; width: 300px;">
-                        <div class="inner1">
-                            <a href="" class="jqzoom" rel='gal1' title="">
-                                <img src="" style="height: 230px; width: 333px;">
-                            </a>
-                        </div>
-                        <div class="inner2">
-                            <ul>
-                                <asp:Repeater ID="Repeater1" runat="server">
-                                    <ItemTemplate>
-                                        <li><a class="zoomThumbActive" href='javascript:void(0);' rel="{gallery: 'gal1', smallimage: '<%#Eval("ImgUrl").ToString()%>',largeimage: '<%#Eval("ImgUrl").ToString()%>'}">
-                                            <img src='<%#Eval("ImgUrl").ToString()%>' alt="" /></a> </li>
-                                    </ItemTemplate>
-                                </asp:Repeater>
-                            </ul>
-                        </div>
-                    </div>
-                </div>--%>
-                <div class="left-box">
-                    <div class="big">
-                        <a href="" class="jqzoom" rel='gal1' title="">
-                            <%--<img class="b-img" src="" title="triumph" />--%>
-                            <asp:Image ID="bigImg" runat="server" class="b-img"/>
-                        </a>
-                    </div>
-                    <div class="small">
-                        <ul>
-                            <asp:Repeater ID="Repeater1" runat="server">
-                                <ItemTemplate>
-                                    <li><a href='javascript:void(0);' rel="{gallery: 'gal1', smallimage: '<%#Eval("ImgUrl").ToString()%>',largeimage: '<%#Eval("ImgUrl").ToString()%>'}">
-                                        <img src='<%#Eval("ImgUrl").ToString()%>' alt=""></a></li>
-                                </ItemTemplate>
-                            </asp:Repeater>
-                        </ul>
-                    </div>
-                </div>
-                <div class="ProDetailCon">
-                    <h3>
-                        产品信息</h3>
-                    <table class="TB1">
-                        <tbody>
-                            <tr>
-                                <th>
-                                    产品名称：
-                                </th>
-                                <td>
-                                    <asp:Label ID="lbtitle" runat="server" Text=""></asp:Label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    型号：
-                                </th>
-                                <td>
-                                    <asp:Label ID="lbxinghao" runat="server" Text=""></asp:Label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    规格：
-                                </th>
-                                <td>
-                                    <asp:Label ID="lbguige" runat="server" Text=""></asp:Label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    产品价格：
-                                </th>
-                                <td>
-                                    <span style="color: Red;">￥<asp:Label ID="lbprice" runat="server" Text=""></asp:Label></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    与我联系：
-                                </th>
-                                <td>
-                                    <a target='_blank' href='http://wpa.qq.com/msgrd?v=3&uin=<%=webset.QQ1 %>&site=qq&menu=yes'>
-                                        <img border='0' src='http://wpa.qq.com/pa?p=2:<%=webset.QQ1 %>:41' alt='点击这里给我发消息'
-                                            title='点击这里给我发消息' style='width: 75px; height: 25px;'></a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h3>
-                        产品介绍</h3>
-                    <asp:Label ID="lbcontent" runat="server" Text=""></asp:Label>
-                    <div class="But1">
-                        <img alt="更多优惠" src="images/icon5.jpg" />
-                    </div>
-                </div>
-                <div style="clear: both;">
-                </div>
+        <div class="main mainbg ">
+            <div class="location">
+                <span class="ico">
+                    <a href="/" title="首页">首页</a>
+                    <span>&gt;</span>
+                    <a href="/productlist.aspx">产品列表</a>
+                    <span>&gt;</span>
+                    <span>产品详情</span>
+                </span>
             </div>
-            <div class="ProShow">
-                <h2>
-                    相关办公用品推荐</h2>
-                <p class="More2">
-                </p>
-                <asp:Repeater ID="RepeaterXiangguanTuijian" runat="server">
-                    <ItemTemplate>
-                        <dl>
-                            <dd>
-                                <a target="_blank" title='<%#Eval("Title").ToString()%>' href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>'>
-                                    <img src='<%#Eval("ImgUrl").ToString()%>' alt='<%#Eval("Title").ToString()%>' width="170"
-                                        height="170"></a>
-                            </dd>
-                            <dt><b>品名：</b><a title='<%#Eval("Title").ToString()%>' href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>'
-                                target="_blank">
-                                <%#Eval("Title").ToString()%></a><br>
-                                <b>型号：</b><%#Eval("XingHao").ToString()%><br>
-                                <b>规格：</b><%#Eval("GuiGe").ToString()%><br>
-                                <b>价格：</b><span style="color: Red;">￥<%#Eval("Price").ToString()%></span><br>
-                            </dt>
-                        </dl>
-                    </ItemTemplate>
-                </asp:Repeater>
-                <div style="clear: both;">
-                </div>
+            <DtCmsControl:lefttuijian ID="lefttuijian2" runat="server" />
+            <div id="rightObj" class="right">
+              <h2 class="title">
+                  <b>产品展示</b>
+              </h2>
+              <div class="display_title">
+                  <h1 style=""><asp:Label ID="lbtitle" runat="server" Text=""></asp:Label></h1>
+                  <div class="info">
+                       <span class="PublishedDate">2016-4-21&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                       <span class="Hits">浏览次数：
+                         <b class="red" id="hits"><asp:Label ID="lbClick" runat="server" Text=""></asp:Label></b>
+                       </span>
+                   </div>
+                  <p style="margin-top: 30px;"> 菜品价格：￥<asp:Label ID="lbprice" runat="server" Text=""></asp:Label></p>
+                  <div class="others enquiry"></div>
+               </div>
+              <div id="info_content" class="display_content display_article" style="text-align: center;">
+                  <asp:Repeater ID="Repeater1" runat="server">
+                        <ItemTemplate>
+                             <img src="<%#Eval("ImgUrl").ToString()%>" class="intro-info-img" style="width: 380px;height: 300px;" />
+                        </ItemTemplate>
+                    </asp:Repeater>
+              </div>
+              <div class="mobile_qr" style="text-align: center;">
+                <img style="width: 300px;height: 300px;" src='http://ibwewm.z243.ibw.cc/api/QR?t=http://www.wlxzlf.com/m/productdetail.aspx?id=<%=proId %>'>
+                <p>手机页面二维码</p>
+              </div>
+              <div class="clear"></div>
+              
             </div>
+            <div class="main_bottom"></div>
         </div>
+      </div>
     </div>
-    <DtCmsControl:footer ID="Footer" runat="server" />
+    <DtCmsControl:footer ID="Footer1" runat="server" />
 </body>
 </html>

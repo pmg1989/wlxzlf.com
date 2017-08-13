@@ -27,7 +27,9 @@
                 <span class="ico">
                     <a href="/" title="首页">首页</a>
                     <span>&gt;</span>
-                    <a href="/contactUs.aspx">关于我们</a>
+                    <a href="/news.aspx">新闻列表</a>
+                    <span>&gt;</span>
+                    <span>新闻详情</span>
                 </span>
             </div>
             <DtCmsControl:lefttuijian ID="lefttuijian2" runat="server" />
