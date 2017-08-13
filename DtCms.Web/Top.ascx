@@ -1,5 +1,36 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Top.ascx.cs" Inherits="DtCms.Web.Top" %>
 
+    <script src="js/jquery-1.3.2.min.js"></script>
+    <script>
+        var pathname = window.location.pathname;
+        var isMobilePage = pathname.indexOf('/m/') > -1
+        var redirectName = pathname.substr(pathname.lastIndexOf('/') + 1) + location.search
+        if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            if (!isMobilePage) {
+                window.location.href = "/m/" + redirectName
+            }
+        } else {
+            if (isMobilePage) {
+                window.location.href = "/" + redirectName
+            }
+        }
+    </script>
+    <script>
+        $(function () {
+            var dic = {
+                '/index.aspx': 0,
+                '/aboutUs.aspx': 1,
+                '/productlist.aspx': 2,
+                '/joinlist.aspx': 4,
+                '/news.aspx': 5,   
+                '/contactUs.aspx': 6,
+                '/addLinks.aspx': 7,
+            }
+            var cur = dic[location.pathname]
+            $('.nav ul li.nav' + cur).find('a').addClass('current');
+        })
+    </script>
+
     <div class="topArea">
         <div class="bg-topArea">
             <p class="wel">欢迎来到<%=webset.WebName %>产品展示网</p>
@@ -39,7 +70,7 @@
             </li>
             <li class="line"></li>
             <li class="nav5">
-                <a href="news.aspx" class="current">资讯动态</a>
+                <a href="news.aspx">资讯动态</a>
             </li>
             <li class="line"></li>
             <li class="nav6">
@@ -51,98 +82,5 @@
             </li>
         </ul>
     </div>
-    </div>
-<script type="text/javascript" language="javascript">
-    function checkKeywords() {
-        var obj = document.getElementById("inputkeywords");
-        if (obj.value == "") {
-            alert("请输入产品关键字进行搜索");
-        }
-        else {
-            window.location = "search.aspx?keywords=" + encodeURI(obj.value);
-        }
-    }
-
-    function ActiveMenu(menuId, className, NoActiveClass) {
-        isBreak = 0;
-        var pageNames = ["index","news","joinus","lineMessage","contactUs"]
-        var pageExt = ["aspx"];
-        var loc = window.location + "";
-        var idx = -1;
-        var obj = document.getElementById(menuId).getElementsByTagName("A");
-        //转为小写
-        loc = loc.toLowerCase();
-        for (j = 0; j < pageNames.length; j++) {
-            pageNames[j] = pageNames[j].toLowerCase();
-        }
-        for (j = 0; j < pageExt.length; j++) {
-            pageExt[j] = pageExt[j].toLowerCase();
-        }
-        // alert(loc);
-        for (j = 0; j < pageNames.length; j++) {
-            idx = loc.indexOf(pageExt[j]);
-            if (idx != -1) {
-                break;
-            }
-        }
-        if (idx != -1) {
-            loc = loc.substring(0, idx);
-            for (j = 0; j < pageNames.length; j++) {
-                // alert(pageNames[j]);
-                idx = loc.indexOf(pageNames[j]);
-                if (idx != -1) {
-                    for (var i = 0; i < obj.length; i++) {
-                        var href = obj[i].href + "";
-                        href = href.toLowerCase();
-                        // alert("网址="+href);
-                        // alert("文件头=" + pageNames[j]);
-                        idx = href.indexOf(pageNames[j]);
-                        if (idx != -1) {
-                            obj[i].className = className;
-                            break;
-                        }
-                        else {
-                            obj[i].className = NoActiveClass;
-                        }
-                    }
-                    break;
-                }
-            }
-        }
-    }
-    //ActiveMenu("Menu", "ActiveMainNav", "");
-
-    function AddFavorite(sURL, sTitle) {
-        try {
-            window.external.addFavorite(sURL, sTitle);
-        }
-        catch (e) {
-            try {
-                window.sidebar.addPanel(sTitle, sURL, "");
-            }
-            catch (e) {
-                alert("加入收藏失败，请使用Ctrl+D进行添加");
-            }
-        }
-    }
-    //设为首页 <a onclick="SetHome(this,window.location)">设为首页</a>
-    function SetHome(obj, vrl) {
-        try {
-            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
-        }
-        catch (e) {
-            if (window.netscape) {
-                try {
-                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
-                }
-                catch (e) {
-                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
-                }
-                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
-                prefs.setCharPref('browser.startup.homepage', vrl);
-            }
-        }
-    }
-
-</script>
+  </div>
 
