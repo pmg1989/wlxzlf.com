@@ -408,6 +408,7 @@
     <Content Include="img\pa_002.gif" />
     <Content Include="img\qq_1.jpg" />
     <Content Include="index.html" />
+    <Content Include="joindetail.aspx" />
     <Content Include="joinlist.aspx" />
     <Content Include="joinUs.aspx" />
     <Content Include="Js\common.js" />
@@ -735,6 +736,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="joindetail.aspx.cs">
+      <DependentUpon>joindetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="joindetail.aspx.designer.cs">
+      <DependentUpon>joindetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="joinlist.aspx.cs">
       <DependentUpon>joinlist.aspx</DependentUpon>

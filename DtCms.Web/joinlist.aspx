@@ -50,7 +50,7 @@
                 <span class="ico">
                     <a href="/" title="首页">首页</a>
                     <span>&gt;</span>
-                    <a href="/news.aspx">新闻中心</a>
+                    <a href="/joinlist.aspx">加盟案例</a>
                 </span>
             </div>
             <DtCmsControl:lefttuijian ID="lefttuijian2" runat="server" />
