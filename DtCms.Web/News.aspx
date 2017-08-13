@@ -66,6 +66,8 @@
                               <%#Eval("isRed").ToString() == "1" ? "<img title='推荐' src='/m/images/Icons/agree.gif' />": "" %>
                               <%#Eval("isHot").ToString() == "1" ? "<img title='热门' src='/m/images/Icons/hot_1.gif' />": "" %>
                               <%#Eval("isTop").ToString() == "1" ? "<img title='置顶' src='/m/images/Icons/ding_1.gif' />": "" %>
+                              
+                             <span class="date"><%#Convert.ToDateTime(Eval("AddTime")).ToString("yyyy-MM-dd")%></span>
                           </li>
                         </ItemTemplate>
                     </asp:Repeater>

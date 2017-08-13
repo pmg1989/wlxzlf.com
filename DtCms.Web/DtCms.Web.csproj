@@ -421,9 +421,11 @@
     <Content Include="Js\jquery.jqzoom-core.js" />
     <Content Include="Js\jquery.jqzoom-core.pack.js" />
     <Content Include="Js\jquery.jqzoom1.0.1.js" />
+    <Content Include="Js\jquery.min.js" />
     <Content Include="Js\jquery.pack.js" />
     <Content Include="Js\jquery.pagination.js" />
     <Content Include="Js\jquery.slider.js" />
+    <Content Include="Js\jquery.SuperSlide.2.1.1.js" />
     <Content Include="Js\jquery.SuperSlide.js" />
     <Content Include="Js\jquery.validate.min.js" />
     <Content Include="Js\jqzoom.pack.1.0.1.js" />

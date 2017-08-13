@@ -31,6 +31,24 @@ namespace DtCms.Web {
         protected global::DtCms.Web.Top Header;
         
         /// <summary>
+        /// productList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater productList;
+        
+        /// <summary>
+        /// newsList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater newsList;
+        
+        /// <summary>
         /// Footer control.
         /// </summary>
         /// <remarks>

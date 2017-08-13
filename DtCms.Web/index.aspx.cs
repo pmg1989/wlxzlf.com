@@ -14,12 +14,26 @@ namespace DtCms.Web
         {
             if (!IsPostBack)
             {
-                //repeater1Bound();//绑定正中间最外层一级分类的repeater
-                //Newsdatabound();//右上侧新闻栏绑定
-                //TuijianProBound();//右侧栏推荐产品绑定
-                //HotProBound();//右侧栏热点产品绑定
-                //ClickProDound();//右侧栏点击排行榜
+                hotProductListBound();
+                hotNewsBound();
             }
+        }
+
+
+        private void hotProductListBound()
+        {
+            DtCms.BLL.Products bll = new DtCms.BLL.Products();
+            //查询绑定数据
+            this.productList.DataSource = bll.GetList(8, "classId=106 and IsLock = 0 and isRed=1", "isTop desc,ClassId asc,Id desc");
+            this.productList.DataBind();
+        }
+
+        private void hotNewsBound()
+        {
+            DtCms.BLL.Article bll = new DtCms.BLL.Article();
+            //查询绑定数据
+            this.newsList.DataSource = bll.GetList(6, "IsLock = 0 and isRed=1", "isTop desc,ClassId asc,Id desc");
+            this.newsList.DataBind();
         }
     }
 
