@@ -13,7 +13,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2017 14:25:31</publishTime>
     </File>
     <File Include="aboutUs.aspx">
-      <publishTime>08/08/2017 00:33:21</publishTime>
+      <publishTime>08/13/2017 19:37:12</publishTime>
     </File>
     <File Include="addLinks.aspx">
       <publishTime>08/08/2017 00:15:29</publishTime>
@@ -325,7 +325,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/07/2010 18:12:48</publishTime>
     </File>
     <File Include="App_Data/DtCms.mdb">
-      <publishTime>08/13/2017 14:24:53</publishTime>
+      <publishTime>08/13/2017 19:29:32</publishTime>
     </File>
     <File Include="bin/DtCms.ActionLabel.dll">
       <publishTime>08/05/2017 01:58:19</publishTime>
@@ -346,7 +346,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2017 01:58:18</publishTime>
     </File>
     <File Include="bin/DtCms.Web.dll">
-      <publishTime>08/13/2017 14:39:55</publishTime>
+      <publishTime>08/13/2017 19:47:46</publishTime>
     </File>
     <File Include="bin/DtCms.Web.UI.dll">
       <publishTime>08/05/2017 01:58:19</publishTime>
@@ -451,7 +451,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2017 00:05:35</publishTime>
     </File>
     <File Include="css/styles.css">
-      <publishTime>08/07/2017 23:07:56</publishTime>
+      <publishTime>08/13/2017 17:42:40</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>01/17/2011 22:48:29</publishTime>
@@ -1303,7 +1303,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/19/2008 14:24:16</publishTime>
     </File>
     <File Include="Footer.ascx">
-      <publishTime>08/08/2017 00:00:21</publishTime>
+      <publishTime>08/13/2017 17:23:17</publishTime>
     </File>
     <File Include="Images/1.jpg">
       <publishTime>07/04/2017 07:34:40</publishTime>
@@ -1414,13 +1414,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/25/2013 15:10:22</publishTime>
     </File>
     <File Include="index.aspx">
-      <publishTime>05/25/2014 12:50:02</publishTime>
+      <publishTime>08/13/2017 19:47:12</publishTime>
     </File>
     <File Include="index.html">
       <publishTime>06/02/2014 10:51:40</publishTime>
     </File>
+    <File Include="joindetail.aspx">
+      <publishTime>08/13/2017 19:37:28</publishTime>
+    </File>
+    <File Include="joinlist.aspx">
+      <publishTime>08/13/2017 17:18:06</publishTime>
+    </File>
     <File Include="joinUs.aspx">
-      <publishTime>08/26/2013 15:40:02</publishTime>
+      <publishTime>08/13/2017 19:37:34</publishTime>
     </File>
     <File Include="Js/calendar.js">
       <publishTime>04/02/2010 17:13:36</publishTime>
@@ -1461,6 +1467,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Js/jquery.jqzoom1.0.1.js">
       <publishTime>09/02/2013 12:24:56</publishTime>
     </File>
+    <File Include="Js/jquery.min.js">
+      <publishTime>08/13/2017 17:39:35</publishTime>
+    </File>
     <File Include="Js/jquery.pack.js">
       <publishTime>08/27/2013 20:29:38</publishTime>
     </File>
@@ -1469,6 +1478,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Js/jquery.slider.js">
       <publishTime>05/25/2014 13:44:39</publishTime>
+    </File>
+    <File Include="Js/jquery.SuperSlide.2.1.1.js">
+      <publishTime>08/13/2017 17:37:44</publishTime>
     </File>
     <File Include="Js/jquery.SuperSlide.js">
       <publishTime>05/24/2014 16:01:46</publishTime>
@@ -1627,19 +1639,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/13/2017 14:31:27</publishTime>
     </File>
     <File Include="News.aspx">
-      <publishTime>08/07/2017 23:09:34</publishTime>
+      <publishTime>08/13/2017 18:53:45</publishTime>
     </File>
     <File Include="Newsdetail.aspx">
-      <publishTime>08/28/2013 13:42:37</publishTime>
+      <publishTime>08/13/2017 19:37:46</publishTime>
     </File>
     <File Include="product.aspx">
       <publishTime>08/29/2013 19:16:01</publishTime>
     </File>
     <File Include="productdetail.aspx">
-      <publishTime>07/26/2015 13:35:25</publishTime>
+      <publishTime>08/13/2017 19:37:51</publishTime>
     </File>
     <File Include="productlist.aspx">
-      <publishTime>09/25/2013 12:30:11</publishTime>
+      <publishTime>08/13/2017 17:20:43</publishTime>
     </File>
     <File Include="search.aspx">
       <publishTime>08/29/2013 19:12:55</publishTime>
@@ -1663,7 +1675,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/17/2011 08:49:02</publishTime>
     </File>
     <File Include="Top.ascx">
-      <publishTime>08/07/2017 23:34:13</publishTime>
+      <publishTime>08/13/2017 17:40:47</publishTime>
     </File>
     <File Include="watermark.png">
       <publishTime>01/17/2011 22:56:24</publishTime>
@@ -1672,7 +1684,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2017 15:04:53</publishTime>
     </File>
     <File Include="XmlConfig/WebSet.config">
-      <publishTime>08/05/2017 15:54:36</publishTime>
+      <publishTime>08/13/2017 17:20:59</publishTime>
     </File>
   </ItemGroup>
 </Project>

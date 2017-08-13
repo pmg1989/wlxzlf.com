@@ -8,7 +8,7 @@ using System.Configuration;
 
 namespace DtCms.Web
 {
-    public partial class aboutUs : System.Web.UI.Page
+    public partial class aboutUs : DtCms.Web.UI.BasePage
     {
         protected internal DtCms.Model.WebSet webset;
 

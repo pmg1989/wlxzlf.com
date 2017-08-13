@@ -49,6 +49,24 @@ namespace DtCms.Web {
         protected global::System.Web.UI.WebControls.Repeater newsList;
         
         /// <summary>
+        /// jiamengList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater jiamengList;
+        
+        /// <summary>
+        /// lbcontent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbcontent;
+        
+        /// <summary>
         /// Footer control.
         /// </summary>
         /// <remarks>

@@ -16,6 +16,8 @@ namespace DtCms.Web
             {
                 hotProductListBound();
                 hotNewsBound();
+                hotJiamenBound();
+                aboutUsBound();
             }
         }
 
@@ -32,8 +34,26 @@ namespace DtCms.Web
         {
             DtCms.BLL.Article bll = new DtCms.BLL.Article();
             //查询绑定数据
-            this.newsList.DataSource = bll.GetList(6, "IsLock = 0 and isRed=1", "isTop desc,ClassId asc,Id desc");
+            DataSet ds = bll.GetList(7, "IsLock = 0 and isRed=1", "isTop desc,ClassId asc,Id desc");
+            this.newsList.DataSource = ds;
             this.newsList.DataBind();
+        }
+
+
+        private void hotJiamenBound()
+        {
+            DtCms.BLL.Products bll = new DtCms.BLL.Products();
+            //查询绑定数据
+            this.jiamengList.DataSource = bll.GetList(8, "classId=107 and IsLock = 0 and isRed=1", "isTop desc,ClassId asc,Id desc");
+            this.jiamengList.DataBind();
+        }
+
+        private void aboutUsBound()
+        {
+            DtCms.BLL.Contents bll = new DtCms.BLL.Contents();
+            DtCms.Model.Contents model = new DtCms.Model.Contents();
+            model = bll.GetModel(1);
+            this.lbcontent.Text = model.Content;
         }
     }
 

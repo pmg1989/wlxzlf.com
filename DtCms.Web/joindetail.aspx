@@ -9,7 +9,7 @@
 <head id="Head2" runat="server">
     <title>关于我们 -
         <%=webset.WebName %></title>
-<%--    <%=AddMetaInfo(webset.WebKeywords,webset.WebDescription,"") %>--%>
+    <%=AddMetaInfo(webset.WebKeywords,webset.WebDescription,"") %>
     <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/styles.css" />
