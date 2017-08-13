@@ -407,7 +407,6 @@
     <Content Include="img\pa.gif" />
     <Content Include="img\pa_002.gif" />
     <Content Include="img\qq_1.jpg" />
-    <Content Include="index.html" />
     <Content Include="joindetail.aspx" />
     <Content Include="joinlist.aspx" />
     <Content Include="joinUs.aspx" />

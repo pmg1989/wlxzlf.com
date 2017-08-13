@@ -49,7 +49,7 @@
     <div class="nav" style="margin:0 auto;">
         <ul>
             <li class="nav0">
-                <a href="/">网站首页</a>
+                <a href="/index.aspx">网站首页</a>
             </li>
             <li class="line"></li>
             <li class="nav1">
