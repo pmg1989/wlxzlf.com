@@ -35,13 +35,17 @@
       <div class="picBox">
         <div id="slider2" class="swipe">
             <ul class="piclist piclist_row_2" style="width:380px;">
-                <li><a href=""><img src="/UpLoadFiles/20170804/080423515641.jpg" style="width: 100%;"></a></li>
-                <li><a href=""><img src="/UpLoadFiles/20170804/080423515641.jpg" style="width: 100%;"></a></li>
-                <li><a href=""><img src="/UpLoadFiles/20170804/080423515641.jpg" style="width: 100%;"></a></li>
+                <li><a href=""><img src="./images/banner/banner0.jpg" style="width: 100%;"></a></li>
+                <li><a href=""><img src="./images/banner/banner1.jpg" style="width: 100%;"></a></li>
+                <li><a href=""><img src="./images/banner/banner2.jpg" style="width: 100%;"></a></li>
+                <li><a href=""><img src="./images/banner/banner3.jpg" style="width: 100%;"></a></li>
+                <li><a href=""><img src="./images/banner/banner4.jpg" style="width: 100%;"></a></li>
             </ul>
         </div>
         <div id="pagenavi2" class="icon_num">
             <a href="javascript:;" class="active">&nbsp;</a>
+            <a href="javascript:;">&nbsp;</a>
+            <a href="javascript:;">&nbsp;</a>
             <a href="javascript:;">&nbsp;</a>
             <a href="javascript:;">&nbsp;</a>
         </div>
