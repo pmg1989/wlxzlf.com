@@ -475,7 +475,6 @@
     <Content Include="m\productlist.aspx" />
     <Content Include="m\Top.ascx" />
     <Content Include="Newsdetail.aspx" />
-    <Content Include="product.aspx" />
     <Content Include="productdetail.aspx" />
     <Content Include="productlist.aspx" />
     <Content Include="search.aspx" />
@@ -861,13 +860,6 @@
     </Compile>
     <Compile Include="Newsdetail.aspx.designer.cs">
       <DependentUpon>Newsdetail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="product.aspx.cs">
-      <DependentUpon>product.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="product.aspx.designer.cs">
-      <DependentUpon>product.aspx</DependentUpon>
     </Compile>
     <Compile Include="productdetail.aspx.cs">
       <DependentUpon>productdetail.aspx</DependentUpon>

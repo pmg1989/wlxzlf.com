@@ -27,7 +27,7 @@
             </li>
             <li class="line"></li>
             <li class="nav2">
-                <a href="productlist">懒汉杂粮粉</a>
+                <a href="productlist.aspx">懒汉杂粮粉</a>
             </li>
             <li class="line"></li>
             <li class="nav3">

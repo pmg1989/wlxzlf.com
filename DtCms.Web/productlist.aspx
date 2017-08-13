@@ -8,12 +8,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>产品专区 -
-        <%=webset.WebName %></title>
+         <%=webset.WebName %></title>
     <%=AddMetaInfo(webset.WebKeywords,webset.WebDescription,"") %>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link type="text/css" rel="stylesheet" href="css/pagination.css" />
     <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
     <script type="text/javascript" src="js/flash.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="css/pagination.css" />
     <script type="text/javascript" src="js/jquery.pagination.js"></script>
     <style type="text/css">
     .MainNav li.productlist a { background-image: url("Css/images/IconNav_09.jpg");}
@@ -37,58 +38,51 @@
     }
     </script>
 </head>
-<body id="home">
-    <DtCmsControl:top ID="Header" runat="server" />
-    <div class="MainBar">
-        <div class="LeftBar">
-            <div class="LeftNav1">
-                <DtCmsControl:leftmenu ID="leftmenu1" runat="server" />
-            </div>
-            <DtCmsControl:lefttuijian ID="lefttuijian1" runat="server" />
+    <body id="news">
+    <div class="pg_margins">
+      <DtCmsControl:top ID="Top1" runat="server" />
+      <div class="main-home inner">
+        <div class="ad_top">
+          <script type="text/javascript" src="/Tools/Advert_js.ashx?id=5"></script>
         </div>
-        <div class="RightBar">
-            <p class="Text1">
-            </p>
-            <div class="ProShow">
-                <h2>
-                    <a title="产品专区" href="productlist.aspx">产品专区</a>&nbsp; &gt;&gt;&nbsp;
-                    <asp:Label ID="lbdaohang" runat="server" Text="推荐产品"></asp:Label>
-                    &nbsp;<asp:Label ID="lbdaohang2" runat="server" Text=""></asp:Label>
-                </h2>
-                <ul class="ProType">
-                    <asp:DataList ID="DataListMenu" runat="server" RepeatDirection="Horizontal" RepeatColumns="4">
-                        <ItemTemplate>
-                            <li><a href='productlist.aspx?channelid=<%#Eval("ParentId").ToString()!="0"?(Eval("ParentId").ToString() + "&classid=" + Eval("Id").ToString()) : Eval("Id").ToString()%>'
-                                title='<%#Eval("Title").ToString()%>'>
-                                <%#Eval("Title").ToString()%></a></li>
-                        </ItemTemplate>
-                    </asp:DataList>
-                </ul>
-                <asp:Repeater ID="RepeaterProductInfo" runat="server">
+        <div class="main mainbg ">
+            <div class="location">
+                <span class="ico">
+                    <a href="/" title="首页">首页</a>
+                    <span>&gt;</span>
+                    <a href="/news.aspx">新闻中心</a>
+                </span>
+            </div>
+            <DtCmsControl:lefttuijian ID="lefttuijian2" runat="server" />
+             <div id="rightObj" class="right">
+              <h2 class="title"><b><span id="lblCurrentName">资讯动态</span></b></h2>
+              <ul class="thumb_list">
+                
+                  <asp:Repeater ID="rptList" runat="server">
                     <ItemTemplate>
-                        <dl>
-                            <dd>
-                                <a target="_blank" title='<%#Eval("Title").ToString()%>' href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>'>
-                                    <img src='<%#Eval("ImgUrl").ToString()%>' alt='<%#Eval("Title").ToString()%>' width="170"
-                                        height="170"></a></dd>
-                            <dt><b>品名：</b><a title='<%#Eval("Title").ToString()%>' href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>'><span style="color: Red;"><%#Eval("Title").ToString()%></span></a><br>
-                                <b>型号：</b><%#Eval("XingHao").ToString()%><br>
-                                <b>规格：</b><%#Eval("Guige").ToString()%><br>
-                                <b>商品价：</b><span style="color: Red;">￥<%#Eval("Price").ToString()%></span><br>
-                                <br />
-                            </dt>
-                        </dl>
+                        <li class="pic_list_2">
+                          <div class="pic_list_li">
+                            <div class="pic">
+                             <a target="_blank" title='<%#Eval("Title").ToString()%>' href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>'>
+                                <img src='<%#Eval("ImgUrl").ToString()%>' alt='<%#Eval("Title").ToString()%>'  class="intro-info-img pic-left" width="100%">
+                              </a>
+                            </div>
+                            <div class="txt">
+                              <a target="_blank" title='<%#Eval("Title").ToString()%>' href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>'><%#Eval("Title").ToString()%></a>
+                            </div>
+                            <span class="date">2017-8-1</span></div>
+                        </li>
                     </ItemTemplate>
                 </asp:Repeater>
-                <div style="clear: both;">
-                </div>
-            </div>
+            </ul>
             <div class="pagebox">
-                <div id="Pagination" class="flickr right">
-                    </div>
+                <div id="Pagination" class="flickr right"></div>
             </div>
+            </div>
+            <div class="main_bottom"></div>
         </div>
+      </div>
     </div>
-    <DtCmsControl:footer ID="Footer" runat="server" />
+    <DtCmsControl:footer ID="Footer1" runat="server" />
 </body>
 </html>

@@ -103,41 +103,5 @@ namespace DtCms.Web
             return strTemp.ToString();
         }
         #endregion
-
-        //private void HotProBound()
-        //{
-        //    Products bllproduct = new Products();
-        //    DataSet ds = bllproduct.GetList(6, "IsLock = 0 and IsHot = 1", "isTop desc,ClassId asc,Id desc");
-        //    if (ds.Tables[0].Rows.Count > 0)
-        //    {
-        //        try
-        //        {
-        //            RepeaterHotPro.DataSource = ds.Tables[0].DefaultView;
-        //            RepeaterHotPro.DataBind();
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            throw new Exception(ex.Message);
-        //        }
-        //    }
-        //}
-
-        ////private void ClickProDound()
-        ////{
-        ////    Products bllproduct = new Products();
-        ////    DataSet ds = bllproduct.GetList(5, "IsLock = 0", "Click desc");
-        ////    if (ds.Tables[0].Rows.Count > 0)
-        ////    {
-        ////        try
-        ////        {
-        ////            RepeaterClick.DataSource = ds.Tables[0].DefaultView;
-        ////            RepeaterClick.DataBind();
-        ////        }
-        ////        catch (Exception ex)
-        ////        {
-        ////            throw new Exception(ex.Message);
-        ////        }
-        ////    }
-        ////}
     }
 }
