@@ -1,6 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Top.ascx.cs" Inherits="DtCms.Web.Top" %>
 
-    <script src="js/jquery-1.3.2.min.js"></script>
     <script>
         var pathname = window.location.pathname;
         var isMobilePage = pathname.indexOf('/m/') > -1
