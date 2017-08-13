@@ -32,7 +32,7 @@ namespace DtCms.Web
                 this.pagesize = webset.WebNewsSize;
                 RptBind("IsLock=0 " + this.CombSqlTxt(this.classId, this.property), "AddTime desc");
 
-                HotProBound();//右侧栏热点产品绑定
+                //HotProBound();//右侧栏热点产品绑定
                 //ClickProDound();//右侧栏点击排行榜
             }
         }
@@ -104,34 +104,16 @@ namespace DtCms.Web
         }
         #endregion
 
-        private void HotProBound()
-        {
-            Products bllproduct = new Products();
-            DataSet ds = bllproduct.GetList(6, "IsLock = 0 and IsHot = 1", "isTop desc,ClassId asc,Id desc");
-            if (ds.Tables[0].Rows.Count > 0)
-            {
-                try
-                {
-                    RepeaterHotPro.DataSource = ds.Tables[0].DefaultView;
-                    RepeaterHotPro.DataBind();
-                }
-                catch (Exception ex)
-                {
-                    throw new Exception(ex.Message);
-                }
-            }
-        }
-
-        //private void ClickProDound()
+        //private void HotProBound()
         //{
         //    Products bllproduct = new Products();
-        //    DataSet ds = bllproduct.GetList(5, "IsLock = 0", "Click desc");
+        //    DataSet ds = bllproduct.GetList(6, "IsLock = 0 and IsHot = 1", "isTop desc,ClassId asc,Id desc");
         //    if (ds.Tables[0].Rows.Count > 0)
         //    {
         //        try
         //        {
-        //            RepeaterClick.DataSource = ds.Tables[0].DefaultView;
-        //            RepeaterClick.DataBind();
+        //            RepeaterHotPro.DataSource = ds.Tables[0].DefaultView;
+        //            RepeaterHotPro.DataBind();
         //        }
         //        catch (Exception ex)
         //        {
@@ -139,5 +121,23 @@ namespace DtCms.Web
         //        }
         //    }
         //}
+
+        ////private void ClickProDound()
+        ////{
+        ////    Products bllproduct = new Products();
+        ////    DataSet ds = bllproduct.GetList(5, "IsLock = 0", "Click desc");
+        ////    if (ds.Tables[0].Rows.Count > 0)
+        ////    {
+        ////        try
+        ////        {
+        ////            RepeaterClick.DataSource = ds.Tables[0].DefaultView;
+        ////            RepeaterClick.DataBind();
+        ////        }
+        ////        catch (Exception ex)
+        ////        {
+        ////            throw new Exception(ex.Message);
+        ////        }
+        ////    }
+        ////}
     }
 }

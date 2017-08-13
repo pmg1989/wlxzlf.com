@@ -13,40 +13,22 @@ namespace DtCms.Web {
     public partial class News {
         
         /// <summary>
-        /// form1 control.
+        /// Top1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::DtCms.Web.Top Top1;
         
         /// <summary>
-        /// Header control.
+        /// lefttuijian2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DtCms.Web.Top Header;
-        
-        /// <summary>
-        /// leftmenu control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DtCms.Web.leftMenu leftmenu;
-        
-        /// <summary>
-        /// lefttuijian1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DtCms.Web.leftTuijian lefttuijian1;
+        protected global::DtCms.Web.leftTuijian lefttuijian2;
         
         /// <summary>
         /// rptList control.
@@ -58,21 +40,12 @@ namespace DtCms.Web {
         protected global::System.Web.UI.WebControls.Repeater rptList;
         
         /// <summary>
-        /// RepeaterHotPro control.
+        /// Footer1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RepeaterHotPro;
-        
-        /// <summary>
-        /// Footer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DtCms.Web.Footer Footer;
+        protected global::DtCms.Web.Footer Footer1;
     }
 }

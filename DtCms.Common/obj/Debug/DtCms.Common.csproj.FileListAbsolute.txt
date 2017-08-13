@@ -51,3 +51,4 @@ F:\github\wlxzlf.com\DtCms.Common\bin\Debug\Dtcms.Common.dll
 F:\github\wlxzlf.com\DtCms.Common\bin\Debug\Dtcms.Common.pdb
 F:\github\wlxzlf.com\DtCms.Common\obj\Debug\Dtcms.Common.dll
 F:\github\wlxzlf.com\DtCms.Common\obj\Debug\Dtcms.Common.pdb
+F:\github\wlxzlf.com\DtCms.Common\obj\Debug\DtCms.Common.csprojResolveAssemblyReference.cache

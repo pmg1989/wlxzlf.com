@@ -39,7 +39,7 @@
             </li>
             <li class="line"></li>
             <li class="nav5">
-                <a href="news" class="current">资讯动态</a>
+                <a href="news.aspx" class="current">资讯动态</a>
             </li>
             <li class="line"></li>
             <li class="nav6">

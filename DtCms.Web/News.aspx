@@ -36,79 +36,49 @@
     </script>
 </head>
 <body id="news">
-    <form id="form1" runat="server">
-    <!--Head.Start-->
-    <DtCmsControl:top ID="Header" runat="server" />
-    <!--Head.End-->
-    <div class="MainBar">
-        <!--left.start-->
-        <div class="LeftBar">
-            <div class="LeftNav1">
-                <DtCmsControl:leftmenu ID="leftmenu" runat="server" />
-            </div>
-            <DtCmsControl:lefttuijian ID="lefttuijian1" runat="server" />
+    <div class="pg_margins">
+      <DtCmsControl:top ID="Top1" runat="server" />
+      <div class="main-home inner">
+        <div class="ad_top">
+          <script type="text/javascript" src="/Tools/Advert_js.ashx?id=5"></script>
         </div>
-        <!--left.end-->
-        <!--right.start-->
-        <div class="RightBar">
-            <div class="prplace" style="margin-top:15px; margin-left:15px;">
-                <h2 style="color: #B50000;">
-                新闻中心
-            </h2>
+        <div class="main mainbg ">
+            <div class="location">
+                <span class="ico">
+                    <a href="/" title="首页">首页</a>
+                    <span>&gt;</span>
+                    <a href="/news.aspx">新闻中心</a>
+                </span>
             </div>
-            <dl class="p2" style="float: left;">
-                <dt><strong class="fc_f60">
-                    <%--<%=DtCms.ActionLabel.Channel.ViewChannelTitle(this.classId) %>--%>
-                    所有新闻</strong>
-                </dt>
-                <dd>
-                    <ul class="b3">
-                        <asp:Repeater ID="rptList" runat="server">
-                            <ItemTemplate>
-                                <li style="font-size:16px;"><a href="Newsdetail.aspx?id=<%#Eval("Id").ToString()%>">
-                                    <%#Eval("Title").ToString()%></a><small>(<%#Convert.ToDateTime(Eval("AddTime")).ToString("yyyy-MM-dd")%>)</small></li>
-                            </ItemTemplate>
-                        </asp:Repeater>
-                    </ul>
-                                <div style="clear: both;">
-            </div>
+            <DtCmsControl:lefttuijian ID="lefttuijian2" runat="server" />
+             <div id="rightObj" class="right">
+              <h2 class="title"><b><span id="lblCurrentName">资讯动态</span></b></h2>
+              <div class="news_list">
+                <ul class="list_news_01">
+                    <asp:Repeater ID="rptList" runat="server">
+                        <ItemTemplate>
+                            <li class="even2">
+	                           <span class="date"></span>
+	                            <span class="topic">
+                                <a href="./newsDetail.aspx?id=<%#Eval("Id").ToString()%>"><%#Eval("Title").ToString()%></a>
+                              </span>
+	                          <img title='New' src='/m/images/Icons/new.gif' />
+                              <%#Eval("isRed").ToString() == "1" ? "<img title='推荐' src='/m/images/Icons/agree.gif' />": "" %>
+                              <%#Eval("isHot").ToString() == "1" ? "<img title='热门' src='/m/images/Icons/hot_1.gif' />": "" %>
+                              <%#Eval("isTop").ToString() == "1" ? "<img title='置顶' src='/m/images/Icons/ding_1.gif' />": "" %>
+                          </li>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+              </div>
             <div class="pagebox">
-                <div id="Pagination" class="flickr right">
-                </div>
-            </div>
-                </dd>
-            </dl>
-            <div class="IndexRight">
-                <div class="imgs" style="margin:15px 0;">
-                    <script type="text/javascript" src="/Tools/Advert_js.ashx?id=4"></script>
-                </div>
-            <div class="RightProList">
-                <h2>
-                    热点办公用品</h2>
-                <div class="more1">
-                </div>
-                <asp:Repeater ID="RepeaterHotPro" runat="server">
-                    <ItemTemplate>
-                        <dl>
-                            <dd>
-                                <a href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>' target="_blank" title="<%#Eval("Title").ToString()%>">
-                                    <img src='<%#Eval("ImgUrl").ToString()%>' alt='<%#Eval("Title").ToString()%>' height="69"
-                                        width="70"></a></dd>
-                            <dt><b>品名：</b><a href='productdetail.aspx?id=<%#Eval("Id").ToString()%>&classid=<%#Eval("ClassId").ToString()%>' target="_blank" title='<%#Eval("Title").ToString()%>'><%#Eval("Title").ToString()%></a><br>
-                                <b>型号：</b><%#Eval("XingHao").ToString()%><br>
-                                <b>价格：</b><span style="color: Red;">￥<%#Eval("Price").ToString()%></span><br>
-                            </dt>
-                        </dl>
-                    </ItemTemplate>
-                </asp:Repeater>
+                <div id="Pagination" class="flickr right"><span class="disabled">« 上一页</span><span class="current">1</span><span class="disabled">下一页 »</span></div>
             </div>
             </div>
+            <div class="main_bottom"></div>
         </div>
-        <!--right.end-->
+      </div>
     </div>
-    <!--footer Start-->
-    <DtCmsControl:footer ID="Footer" runat="server" />
-    <!--footer End-->
-    </form>
+    <DtCmsControl:footer ID="Footer1" runat="server" />
 </body>
 </html>
