@@ -41,7 +41,7 @@
 <style>
     .QQbox
     {
-        z-index: 99;
+        z-index: 9999;
         right: 0px;
         width: 178px;
         position: absolute;

@@ -61,7 +61,7 @@
             </li>
             <li class="line"></li>
             <li class="nav3">
-                <a href="joinlist.aspx">招商加盟</a>
+                <a href="joinUs.aspx">招商加盟</a>
             </li>
             <li class="line"></li>
             <li class="nav4">
